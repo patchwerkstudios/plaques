@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B.o.B Presents: The Adventures of Bobby Ray | Patchwerk Recording Studios</title>
+<meta name="description" content="The story and credits behind B.o.B Presents: The Adventures of Bobby Ray, recorded at Patchwerk Recording Studios.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #ece3d4;
+    --paper: #141110;
+    --gold: #d4a24c;
+    --gold-deep: #bd9457;
+    --rust: #dd7f4c;
+    --line: rgba(236, 227, 212, 0.14);
+    --surface: #1f1a14;
+    --plate: #141110;
+    --muted: rgba(236, 227, 212, 0.5);
+    --font-display: "Oswald", "Helvetica Neue", Arial, sans-serif;
+    --font-body: "Barlow", system-ui, -apple-system, sans-serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background:
+      radial-gradient(circle at 20% 8%, rgba(212, 162, 76, 0.14), transparent 42%),
+      radial-gradient(circle at 85% 82%, rgba(221, 127, 76, 0.12), transparent 48%),
+      var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.65;
+    min-height: 100vh;
+    padding: 0 20px 60px;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; }
+
+  /* top bar */
+  header.top {
+    display: flex; align-items: center; gap: 14px;
+    padding: 26px 0 22px; border-bottom: 1px solid var(--line);
+  }
+  header.top img { width: 46px; height: 46px; }
+  header.top .studio { display: flex; flex-direction: column; }
+  header.top .studio b {
+    font-family: var(--font-display);
+    letter-spacing: 0.22em; font-size: 0.72rem; text-transform: uppercase;
+    color: var(--ink); font-weight: 700;
+  }
+  header.top .studio span {
+    font-family: var(--font-display);
+    font-size: 0.62rem; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--gold-deep); margin-top: 3px;
+  }
+
+  /* hero */
+  .eyebrow {
+    font-family: var(--font-display);
+    text-transform: uppercase; letter-spacing: 0.24em; font-size: 0.66rem;
+    color: var(--rust); font-weight: 700; margin: 40px 0 14px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .eyebrow::before { content:""; width: 26px; height: 2px; background: var(--gold); }
+  h1.song {
+    font-family: var(--font-display);
+    font-size: clamp(2.5rem, 8.5vw, 3.9rem); line-height: 1.02; font-weight: 700;
+    letter-spacing: 0.005em; text-transform: uppercase; color: var(--ink);
+  }
+  h1.song em { font-style: normal; color: var(--gold); }
+  .artist {
+    font-family: var(--font-display); font-weight: 500;
+    font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--gold); margin-top: 14px;
+  }
+
+  /* video embed */
+  .watch { margin-top: 26px; }
+  .watch .cap {
+    font-family: var(--font-display); font-weight: 500; text-transform: uppercase;
+    letter-spacing: 0.16em; font-size: 0.64rem; color: var(--gold-deep);
+    margin-bottom: 11px; display: flex; align-items: center; gap: 9px;
+  }
+  .watch .cap::before { content:""; width: 18px; height: 2px; background: var(--gold); }
+  .video-embed {
+    position: relative; width: 100%; padding-bottom: 56.25%; height: 0;
+    border: 1px solid var(--line); border-radius: 4px; overflow: hidden; background: #000;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  }
+  .video-embed iframe {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;
+  }
+
+  /* meta strip */
+  .meta {
+    display: flex; flex-wrap: wrap; gap: 0; margin: 28px 0 8px;
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+  }
+  .meta .cell {
+    flex: 1 1 33%; padding: 14px 4px; border-right: 1px solid var(--line);
+  }
+  .meta .cell:last-child { border-right: none; }
+  .meta .k {
+    font-family: var(--font-display); text-transform: uppercase;
+    letter-spacing: 0.14em; font-size: 0.56rem; color: var(--gold-deep); font-weight: 700;
+  }
+  .meta .v { font-size: 0.98rem; margin-top: 4px; color: var(--ink); }
+
+  /* sections */
+  section { margin-top: 44px; }
+  h2 {
+    font-family: var(--font-display); font-size: 0.78rem;
+    text-transform: uppercase; letter-spacing: 0.2em; color: var(--rust);
+    font-weight: 700; margin-bottom: 18px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  h2::after { content:""; flex: 1; height: 1px; background: var(--line); }
+  section p { margin-bottom: 16px; font-size: 1.06rem; }
+  section p:last-child { margin-bottom: 0; }
+
+  /* credits */
+  .credits { list-style: none; }
+  .credits li {
+    display: flex; gap: 16px; padding: 11px 0; border-bottom: 1px solid var(--line);
+    font-size: 1rem;
+  }
+  .credits li:last-child { border-bottom: none; }
+  .credits .role {
+    flex: 0 0 40%; font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--gold-deep); font-weight: 700; padding-top: 3px;
+  }
+  .credits .name { flex: 1; color: var(--ink); }
+
+  /* patchwerk callout */
+  .callout {
+    background: var(--surface); color: var(--ink); border-radius: 4px;
+    padding: 26px 26px 24px; margin-top: 44px;
+    border: 1px solid rgba(212,162,76,0.28);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  }
+  .callout .tag {
+    font-family: var(--font-display); text-transform: uppercase;
+    letter-spacing: 0.2em; font-size: 0.6rem; color: var(--gold); font-weight: 700;
+    display: flex; align-items: center; gap: 10px; margin-bottom: 14px;
+  }
+  .callout .tag::before { content:""; width: 22px; height: 2px; background: var(--gold); }
+  .callout p { font-size: 1.04rem; color: #efe6d6; }
+
+  /* footnote */
+  .note {
+    margin-top: 30px; font-size: 0.8rem; color: var(--muted);
+    font-style: italic; line-height: 1.5;
+  }
+
+  /* footer / cta */
+  footer {
+    margin-top: 48px; padding-top: 28px; border-top: 2px solid var(--gold);
+    text-align: center;
+  }
+  footer .cta-line {
+    font-family: var(--font-display); text-transform: uppercase;
+    letter-spacing: 0.2em; font-size: 0.66rem; color: var(--gold-deep);
+    font-weight: 700; margin-bottom: 16px;
+  }
+  a.btn {
+    display: inline-block; background: var(--gold); color: var(--plate);
+    text-decoration: none; font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em;
+    font-size: 0.78rem; padding: 14px 30px; border-radius: 3px;
+    transition: background 0.2s;
+  }
+  a.btn:hover { background: var(--gold-deep); color: var(--paper); }
+  footer .back { display: block; margin-top: 22px; }
+  footer .back a {
+    color: var(--gold-deep); font-size: 0.82rem; text-decoration: none;
+    border-bottom: 1px solid var(--line);
+  }
+  footer .signoff {
+    margin-top: 26px; font-size: 0.72rem; color: var(--muted);
+    letter-spacing: 0.04em;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <img src="assets/pwr-logo.png" alt="Patchwerk Recording Studios logo">
+      <div class="studio">
+        <b>Patchwerk Recording Studios</b>
+        <span>Est. 1995 &middot; Atlanta, GA</span>
+      </div>
+    </header>
+
+    <div class="eyebrow">Staircase to Studio 9000 Lounge</div>
+    <h1 class="song">The Adventures of<br>Bobby Ray</h1>
+    <div class="artist">B.o.B</div>
+
+    <div class="watch">
+      <div class="cap">Watch “Nothin’ on You”</div>
+      <div class="video-embed"><iframe src="https://www.youtube.com/embed/8PTDv_szmL0" title="B.o.B Presents: The Adventures of Bobby Ray — official video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    </div>
+
+    <div class="meta">
+      <div class="cell"><div class="k">Year</div><div class="v">2010</div></div>
+      <div class="cell"><div class="k">Type</div><div class="v">Debut Album</div></div>
+      <div class="cell"><div class="k">Label</div><div class="v">Grand Hustle / Atlantic</div></div>
+      <div class="cell"><div class="k">Debut</div><div class="v">No. 1 Billboard 200</div></div>
+      <div class="cell"><div class="k">Certified</div><div class="v">2&amp;times; Platinum</div></div>
+      <div class="cell"><div class="k">Grammy</div><div class="v">Best Rap Album nom.</div></div>
+    </div>
+
+    <section>
+      <h2>The Story</h2>
+      <p>The debut from Atlanta’s Bobby Ray Simmons Jr. arrived on a wave of genre-blending hype, with critics comparing his fearless mix of rap, pop, rock and soul to André 3000 and Kanye West. It earned generally favorable reviews and a Grammy nomination for Best Rap Album.</p>
+      <p>The rollout broke the rules. A mixtape bonus track, “Nothin’ on You,” took off so fast that Atlantic moved the album up nearly a month. It debuted at No. 1 on the Billboard 200 and went on to 2&times; Platinum, launching the careers of both B.o.B and a then-unknown Bruno Mars.</p>
+      <p>Its guest list told the whole story — Hayley Williams of Paramore, Rivers Cuomo of Weezer, Eminem, Janelle Monáe, Lupe Fiasco and label boss T.I. — a pop-crossover, rock-adjacent record that could only have come from Atlanta’s Grand Hustle camp.</p>
+    </section>
+
+    <section>
+      <h2>Behind the Board</h2>
+      <ul class="credits">
+        <li><span class="role">Executive</span><span class="name">B.o.B, T.I., Jim Jonsin</span></li>
+        <li><span class="role">Key Producers</span><span class="name">The Smeezingtons, Alex da Kid, Dr. Luke, DJ Frank E</span></li>
+        <li><span class="role">Mastering</span><span class="name">Chris Gehringer</span></li>
+        <li><span class="role">Lead Singles</span><span class="name">“Nothin’ on You,” “Airplanes,” “Magic”</span></li>
+        <li><span class="role">Features</span><span class="name">Bruno Mars, Hayley Williams, Rivers Cuomo, Eminem, T.I.</span></li>
+      </ul>
+    </section>
+
+    <div class="callout"><div class="tag">The Patchwerk Connection</div><p>Patchwerk Recording Studios is listed as the primary studio for <em>The Adventures of Bobby Ray</em> — fitting for an Atlanta artist on T.I.’s hometown Grand Hustle label. The album is a documented part of Patchwerk’s catalog.</p></div>
+
+    <p class="note">Per-track engineering credits for this album are lightly documented in public sources and are pending internal verification against Patchwerk’s session archive.</p>
+
+    <footer>
+      <div class="cta-line">Tap. Listen. Explore.</div>
+      <a class="btn" href="https://www.patchwerk.com">Discover Patchwerk &rarr;</a>
+      <span class="back"><a href="index.html">&larr; Back to the collection</a></span>
+      <div class="signoff">Patchwerk Recording Studios &middot; The Sound of Atlanta</div>
+    </footer>
+  </div>
+</body>
+</html>

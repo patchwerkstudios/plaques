@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Plaque Collection | Patchwerk Recording Studios</title>
+<meta name="description" content="Tap a plaque, hear its story. The Patchwerk Recording Studios plaque collection.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #ece3d4;
+    --paper: #141110;
+    --gold: #d4a24c;
+    --gold-deep: #bd9457;
+    --rust: #dd7f4c;
+    --line: rgba(236, 227, 212, 0.14);
+    --muted: rgba(236, 227, 212, 0.5);
+    --plate: #141110;
+    --font-display: "Oswald", "Helvetica Neue", Arial, sans-serif;
+    --font-body: "Barlow", system-ui, -apple-system, sans-serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background:
+      radial-gradient(circle at 20% 8%, rgba(212, 162, 76, 0.14), transparent 42%),
+      radial-gradient(circle at 85% 82%, rgba(221, 127, 76, 0.12), transparent 48%),
+      var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.65; min-height: 100vh; padding: 0 20px 60px;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; }
+  header.top {
+    display: flex; align-items: center; gap: 14px;
+    padding: 26px 0 22px; border-bottom: 1px solid var(--line);
+  }
+  header.top img { width: 46px; height: 46px; }
+  header.top .studio b {
+    font-family: var(--font-display); letter-spacing: 0.22em;
+    font-size: 0.72rem; text-transform: uppercase; color: var(--ink); font-weight: 700;
+    display: block;
+  }
+  header.top .studio span {
+    font-family: var(--font-display); font-size: 0.62rem;
+    letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-deep);
+    display: block; margin-top: 3px;
+  }
+  .hero { margin: 46px 0 12px; }
+  .eyebrow {
+    font-family: var(--font-display); text-transform: uppercase;
+    letter-spacing: 0.24em; font-size: 0.66rem; color: var(--rust); font-weight: 700;
+    display: flex; align-items: center; gap: 10px; margin-bottom: 16px;
+  }
+  .eyebrow::before { content:""; width: 26px; height: 2px; background: var(--gold); }
+  h1 {
+    font-family: var(--font-display); font-weight: 700; text-transform: uppercase;
+    font-size: clamp(2.4rem, 7.5vw, 3.4rem); line-height: 1.03; color: var(--ink);
+    letter-spacing: 0.005em;
+  }
+  .intro { font-size: 1.08rem; margin-top: 18px; color: var(--ink); max-width: 60ch; }
+  .list { margin-top: 40px; list-style: none; }
+  .list a {
+    display: block; text-decoration: none; color: inherit;
+    padding: 20px 0; border-top: 1px solid var(--line);
+    transition: padding-left 0.18s;
+  }
+  .list li:last-child a { border-bottom: 1px solid var(--line); }
+  .list a:hover { padding-left: 8px; }
+  .list .loc {
+    font-family: var(--font-display); text-transform: uppercase;
+    letter-spacing: 0.14em; font-size: 0.58rem; color: var(--gold-deep); font-weight: 700;
+  }
+  .list .title {
+    font-family: var(--font-display); font-weight: 600; text-transform: uppercase;
+    font-size: 1.6rem; color: var(--ink); margin-top: 6px; line-height: 1.1; letter-spacing: 0.01em;
+  }
+  .list .title em { font-style: normal; color: var(--gold); }
+  .list a:hover .title { color: var(--gold); }
+  .list .artist { font-size: 0.98rem; color: var(--gold-deep); margin-top: 5px; }
+  footer {
+    margin-top: 48px; padding-top: 28px; border-top: 2px solid var(--gold); text-align: center;
+  }
+  a.btn {
+    display: inline-block; background: var(--gold); color: var(--plate); text-decoration: none;
+    font-family: var(--font-display); font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.12em; font-size: 0.78rem; padding: 14px 30px; border-radius: 3px;
+  }
+  a.btn:hover { background: var(--gold-deep); color: var(--paper); }
+  footer .signoff {
+    margin-top: 24px; font-size: 0.72rem; color: var(--muted); letter-spacing: 0.04em;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <img src="assets/pwr-logo.png" alt="Patchwerk Recording Studios logo">
+      <div class="studio">
+        <b>Patchwerk Recording Studios</b>
+        <span>Est. 1995 &middot; Atlanta, GA</span>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="eyebrow">The Plaque Collection</div>
+      <h1>Tap a plaque.<br>Hear its story.</h1>
+      <p class="intro">Every gold and platinum record on these walls has a history — the sessions, the engineers, the moment it came together. Tap any plaque with your phone to step inside the story.</p>
+    </div>
+
+    <ul class="list">
+      <li><a href="elevators.html">
+        <div class="loc">Office Hallway</div>
+        <div class="title">Elevators (Me &amp; You)</div>
+        <div class="artist">OutKast</div>
+      </a></li>
+      <li><a href="pick-up-the-phone.html">
+        <div class="loc">Office Hallway</div>
+        <div class="title">Pick Up the Phone</div>
+        <div class="artist">Travis Scott &amp; Young Thug feat. Quavo</div>
+      </a></li>
+      <li><a href="my-turn.html">
+        <div class="loc">995 Hallway</div>
+        <div class="title">My Turn</div>
+        <div class="artist">Lil Baby</div>
+      </a></li>
+      <li><a href="no-hands.html">
+        <div class="loc">Kitchen</div>
+        <div class="title">No Hands</div>
+        <div class="artist">Waka Flocka Flame feat. Roscoe Dash &amp; Wale</div>
+      </a></li>
+      <li><a href="adventures-of-bobby-ray.html">
+        <div class="loc">Staircase to Studio 9000 Lounge</div>
+        <div class="title">The Adventures of Bobby Ray</div>
+        <div class="artist">B.o.B</div>
+      </a></li>
+      <li><a href="dangerously-in-love.html">
+        <div class="loc">Back Door Lobby</div>
+        <div class="title">Dangerously in Love</div>
+        <div class="artist">Beyoncé</div>
+      </a></li>
+    </ul>
+
+    <footer>
+      <a class="btn" href="https://www.patchwerk.com">Discover Patchwerk &rarr;</a>
+      <div class="signoff">Patchwerk Recording Studios &middot; The Sound of Atlanta</div>
+    </footer>
+  </div>
+</body>
+</html>

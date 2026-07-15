@@ -1,0 +1,36 @@
+HOW THE VIDEOS WORK
+===================
+
+Each plaque page looks for its video in THIS "videos" folder, by an exact
+filename. Drop your .mp4 files here using these exact names (all lowercase,
+no spaces, .mp4 extension):
+
+  PAGE                          ->  VIDEO FILE TO ADD
+  ------------------------------    ---------------------------------
+  Elevators (OutKast)           ->  elevators.mp4
+  Pick Up the Phone             ->  pick-up-the-phone.mp4
+  My Turn (Lil Baby)            ->  my-turn.mp4
+  No Hands (Waka Flocka)        ->  no-hands.mp4
+  Adventures of Bobby Ray (B.o.B)-> adventures-of-bobby-ray.mp4
+  Dangerously in Love (Beyonce) ->  dangerously-in-love.mp4
+
+RULES (important)
+-----------------
+1. Filenames must match EXACTLY, including lowercase and hyphens. GitHub is
+   case-sensitive: "Elevators.mp4" or "elevators.MP4" will NOT work.
+2. Use .mp4 files (H.264 video / AAC audio). This format plays on virtually
+   every phone and browser. If your files are .mov, convert them to .mp4 first.
+3. Keep this "videos" folder next to the HTML pages when you upload to GitHub.
+4. Until a matching .mp4 is added, the player on that page will show a black
+   box / "no video" — that's expected; it fills in once the file is there.
+
+UPLOADING VIDEOS TO GITHUB
+--------------------------
+- In your repo, open the "videos" folder (create it if needed via
+  Add file -> Create new file, name it "videos/placeholder.txt" to make the
+  folder), then use Add file -> Upload files and drag your .mp4s in.
+- GitHub's web uploader accepts files up to 25 MB each. If a video is larger,
+  either compress it (aim for 1080p at a modest bitrate) or use a service like
+  Vimeo instead for that one. Total repo size should stay under 1 GB.
+
+TIP: shorter, compressed clips load faster when a visitor taps the plaque.

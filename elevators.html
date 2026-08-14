@@ -7,12 +7,13 @@
 <meta name="description" content="The story of OutKast's Elevators (Me & You), tracked at Patchwerk Recording Studios, with the studio's own session log.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --ink: #ece3d4; --paper: #141110; --gold: #d4a24c; --gold-deep: #bd9457;
-    --rust: #dd7f4c; --line: rgba(236,227,212,0.14); --surface: #1f1a14;
-    --plate: #141110; --muted: rgba(236,227,212,0.5);
+    --ink: #f2ece0; --paper: #100f0d; --gold: #e3a32e; --gold-deep: #c7912f;
+    --rust: #c7912f; --line: rgba(236,227,212,0.13); --surface: #191510;
+    --plate: #100f0d; --muted: rgba(236,227,212,0.5);
+    --font-head: "Anton","Oswald",Arial,sans-serif;
     --font-display: "Oswald","Helvetica Neue",Arial,sans-serif;
     --font-body: "Barlow",system-ui,-apple-system,sans-serif;
   }
@@ -20,20 +21,24 @@
   html { -webkit-text-size-adjust:100%; }
   body {
     background:
-      radial-gradient(circle at 20% 8%, rgba(212,162,76,0.14), transparent 42%),
-      radial-gradient(circle at 85% 82%, rgba(221,127,76,0.12), transparent 48%),
+      radial-gradient(ellipse 120% 55% at 28% -8%, rgba(227,163,46,0.08), transparent 60%),
+      radial-gradient(ellipse 100% 50% at 90% 100%, rgba(227,163,46,0.05), transparent 55%),
       var(--paper);
+    background-attachment: fixed;
     color: var(--ink); font-family: var(--font-body); line-height:1.65;
     min-height:100vh; padding:0 20px 60px;
   }
   .wrap { max-width:680px; margin:0 auto; }
+  html.anim-on .wrap > *:not(header) { opacity:0; transform:translateY(26px); transition:opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1); }
+  html.anim-on .wrap > *.is-visible { opacity:1; transform:none; }
+  @media (prefers-reduced-motion: reduce) { html.anim-on .wrap > *:not(header) { opacity:1 !important; transform:none !important; transition:none; } }
   header.top { display:flex; align-items:center; gap:14px; padding:26px 0 22px; border-bottom:1px solid var(--line); }
   header.top img { width:46px; height:46px; }
   header.top .studio b { font-family:var(--font-display); letter-spacing:0.22em; font-size:0.72rem; text-transform:uppercase; color:var(--ink); font-weight:600; display:block; }
   header.top .studio span { font-family:var(--font-display); font-size:0.62rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold-deep); display:block; margin-top:3px; }
   .eyebrow { font-family:var(--font-display); text-transform:uppercase; letter-spacing:0.24em; font-size:0.66rem; color:var(--rust); font-weight:600; margin:40px 0 14px; display:flex; align-items:center; gap:10px; }
   .eyebrow::before { content:""; width:26px; height:2px; background:var(--gold); }
-  h1.song { font-family:var(--font-display); font-size:clamp(2.5rem,8.5vw,3.9rem); line-height:1.02; font-weight:700; letter-spacing:0.005em; text-transform:uppercase; color:var(--ink); }
+  h1.song { font-family:var(--font-head); font-weight:400; font-size:clamp(2.7rem,9.2vw,4.15rem); line-height:0.97; letter-spacing:0.012em; text-transform:uppercase; color:var(--ink); }
   h1.song span.sub { font-size:0.55em; }
   .artist { font-family:var(--font-display); font-weight:500; font-size:1.1rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--gold); margin-top:14px; }
   .meta { display:flex; flex-wrap:wrap; margin:28px 0 8px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
@@ -42,14 +47,25 @@
   .meta .k { font-family:var(--font-display); text-transform:uppercase; letter-spacing:0.14em; font-size:0.56rem; color:var(--gold-deep); font-weight:600; }
   .meta .v { font-size:0.98rem; margin-top:4px; color:var(--ink); }
   section { margin-top:44px; }
-  h2 { font-family:var(--font-display); font-size:0.85rem; text-transform:uppercase; letter-spacing:0.2em; color:var(--rust); font-weight:600; margin-bottom:18px; display:flex; align-items:center; gap:12px; }
-  h2::after { content:""; flex:1; height:1px; background:var(--line); }
+  h2 { font-family:var(--font-head); font-weight:400; font-size:clamp(1.75rem,5.6vw,2.5rem); text-transform:uppercase; letter-spacing:0.012em; line-height:1.0; color:var(--ink); margin:0 0 18px; }
+  h2 .hl { color:var(--gold); }
   section p { margin-bottom:16px; font-size:1.06rem; }
+  /* patchwerk-style big statement + Q&A */
+  .feature { margin:26px 0 6px; }
+  .feature .rule { width:42px; height:3px; background:var(--gold); margin-bottom:16px; }
+  .feature p { font-family:var(--font-display); font-weight:600; font-size:clamp(1.5rem,4.7vw,2.25rem); line-height:1.16; color:var(--ink); margin:0; }
+  .feature p .hl { color:var(--gold); }
+  section.qa { margin-top:44px; }
+  .qa-item { background:linear-gradient(150deg,#221b14,#181109); border:1px solid rgba(212,162,76,0.2); border-left:3px solid var(--gold); border-radius:6px; padding:22px 24px; margin-top:16px; box-shadow:0 8px 22px rgba(0,0,0,0.3); }
+  .qa-item .q-kicker { font-family:var(--font-display); text-transform:uppercase; letter-spacing:0.2em; font-size:0.58rem; color:var(--rust); font-weight:600; margin-bottom:9px; display:flex; align-items:center; gap:8px; }
+  .qa-item .q-kicker::before { content:""; width:16px; height:2px; background:var(--gold); }
+  .qa-item h3 { font-family:var(--font-display); font-weight:600; text-transform:none; font-size:clamp(1.3rem,3.8vw,1.65rem); line-height:1.16; color:var(--gold); margin:0 0 11px; }
+  .qa-item p { font-size:1.08rem; color:var(--ink); margin:0; }
   /* media: smaller, centered, interspersed */
   figure.media { margin:26px auto; max-width:460px; }
   figure.media .plaque-video { position:relative; width:100%; padding-bottom:56.25%; height:0; border-radius:10px; overflow:hidden; background:#000; box-shadow:0 10px 26px rgba(0,0,0,0.4); }
   figure.media .plaque-video video { position:absolute; top:0; left:0; width:100%; height:100%; object-fit:contain; background:#000; }
-  figure.media figcaption { font-family:var(--font-display); text-transform:uppercase; letter-spacing:0.1em; font-size:0.6rem; color:var(--gold-deep); text-align:center; margin-top:10px; }
+  figure.media figcaption { font-family:var(--font-display); font-weight:500; text-transform:uppercase; letter-spacing:0.12em; font-size:0.82rem; color:var(--gold-deep); text-align:center; margin-top:12px; }
   /* session report document */
   figure.doc { margin:30px auto 8px; max-width:470px; }
   figure.doc .sheet {
@@ -89,12 +105,13 @@
   .note { margin-top:30px; font-size:0.8rem; color:var(--muted); font-style:italic; line-height:1.5; }
   footer { margin-top:48px; padding-top:28px; border-top:2px solid var(--gold); text-align:center; }
   footer .cta-line { font-family:var(--font-display); text-transform:uppercase; letter-spacing:0.2em; font-size:0.66rem; color:var(--gold-deep); font-weight:600; margin-bottom:16px; }
-  a.btn { font-family:var(--font-display); display:inline-block; background:var(--gold); color:var(--plate); text-decoration:none; font-weight:600; text-transform:uppercase; letter-spacing:0.12em; font-size:0.78rem; padding:14px 30px; border-radius:3px; }
+  a.btn { font-family:var(--font-display); display:inline-block; background:var(--gold); color:var(--plate); text-decoration:none; font-weight:600; text-transform:uppercase; letter-spacing:0.13em; font-size:1.1rem; padding:20px 56px; border-radius:4px; }
   a.btn:hover { background:var(--gold-deep); color:var(--paper); }
   footer .back { display:block; margin-top:22px; }
   footer .back a { font-family:var(--font-display); text-transform:uppercase; letter-spacing:0.08em; color:var(--gold-deep); font-size:0.72rem; text-decoration:none; }
   footer .signoff { font-family:var(--font-display); text-transform:uppercase; letter-spacing:0.1em; margin-top:26px; font-size:0.66rem; color:var(--muted); }
 </style>
+<script>if(!window.matchMedia||!matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('anim-on');}</script>
 </head>
 <body>
   <div class="wrap">
@@ -109,6 +126,11 @@
     <div class="eyebrow">Office Hallway</div>
     <h1 class="song">Elevators<br><span class="sub">(Me &amp; You)</span></h1>
     <div class="artist">OutKast</div>
+
+    <div class="feature">
+      <div class="rule"></div>
+      <p>One of the first songs recorded at Patchwerk, &ldquo;Elevators (Me &amp; You)&rdquo; was <span class="hl">our first plaque.</span></p>
+    </div>
 
     <div class="spotify">
       <div class="cap">Listen</div>
@@ -126,24 +148,34 @@
     </div>
 
     <section>
-      <h2>The Story</h2>
-      <p>&ldquo;Elevators (Me &amp; You)&rdquo; was the lead single from <em>ATLiens</em>, the 1996 album where Andr&eacute; 3000 and Big Boi stepped out from under Organized Noize to produce for themselves &mdash; and this hypnotic, bass-heavy track was one of the first they built on their own. Its slowed, spacey minimalism was a deliberate break from the live-funk of their debut and helped define the cosmic &ldquo;ATLien&rdquo; sound.</p>
+      <h2>The <span class="hl">Story</span></h2>
+      <p>Elevators was the lead single to OutKast&rsquo;s 1996 sophomore album <em>ATLiens</em>. It served as a departure from the sound of their debut, <em>Southernplayalisticadillacmuzik</em>, featuring reverb-heavy percussion, spacey electric guitar, and an infectious chorus from Big Boi, Sleepy Brown, Debra Killings &amp; Jazzyfatnastees.</p>
 
       <figure class="media"><div class="plaque-video"><video controls preload="metadata" playsinline><source src="videos/outkast-elevators.mp4" type="video/mp4">Your browser doesn&rsquo;t support embedded video.</video></div><figcaption>Elevators (Me &amp; You) &mdash; OutKast</figcaption></figure>
 
-      <p>The lyrics turned inward, reflecting on OutKast&rsquo;s rise from local Atlanta hopefuls to national artists and the strange gravity of new fame and money. It became their biggest hit to that point: No. 12 on the Billboard Hot 100, No. 1 on Hot Rap Tracks, and a Platinum certification from the RIAA.</p>
+      <p>The song tells of OutKast&rsquo;s rise from writing and performing in Atlanta to being featured on the world stage, &ldquo;&hellip;coming up, slammin&rsquo; Cadillac doors.&rdquo; However, the end of the song finds Dr&eacute; highlighting that despite his success, he still lives bill-to-bill like the average man and needs to keep grinding in order to make a living.</p>
 
-      <p>Patchwerk engineer Jarvis Blackshear recalls Andr&eacute; cutting his vocals for &ldquo;Elevators&rdquo; &mdash; along with several other <em>ATLiens</em> tracks &mdash; in a single burst of about four hours, knocked out on a $500 bet to be finished by eight o&rsquo;clock.</p>
+      <p>Today, Elevators stands as a defining moment for Southern hip-hop, artistically and culturally, proving that Dr&eacute; was serious when he told the world that &ldquo;The South got something to say.&rdquo;</p>
+    </section>
 
-      <p class="pull">&ldquo;We did the vocals to all those songs in about four hours.&rdquo;</p>
-
-      <p>Today it stands as a landmark of Southern hip-hop&rsquo;s mid-90s artistic leap, still studied by engineers for its warm, murky low end &mdash; the sound of Atlanta finding its own voice.</p>
+    <section class="qa">
+      <h2>The <span class="hl">Recording</span></h2>
+      <div class="qa-item">
+        <div class="q-kicker">The Studio</div>
+        <h3>Where was it recorded?</h3>
+        <p>&ldquo;Elevators&rdquo; was recorded at Patchwerk&rsquo;s original studio at 995 McMillan Street &mdash; a house converted into a studio space that saw the likes of OutKast, Ras Kass, and Organized Noize (ONP) come through to record.</p>
+      </div>
+      <div class="qa-item">
+        <div class="q-kicker">The Engineers</div>
+        <h3>Which engineers recorded &ldquo;Elevators (Me &amp; You)&rdquo;?</h3>
+        <p>The music for &ldquo;Elevators&rdquo; was recorded by Khalifani on November 25, 1995, while Andr&eacute; and Big Boi&rsquo;s vocals were recorded by Jarvis Blackshear in December of 1995.</p>
+      </div>
     </section>
 
     <figure class="media"><div class="plaque-video"><video controls preload="metadata" playsinline><source src="videos/werking-on-elevators.mp4" type="video/mp4">Your browser doesn&rsquo;t support embedded video.</video></div><figcaption>Werking on Elevators &mdash; inside the session</figcaption></figure>
 
     <section>
-      <h2>From Patchwerk&rsquo;s Archive</h2>
+      <h2>From Patchwerk&rsquo;s <span class="hl">Archive</span></h2>
       <p>The studio&rsquo;s own session logs capture &ldquo;Elevators&rdquo; being built in-house. On November 25, 1995, engineer Khalifani recorded the track &mdash; tracking the music with live bass and cutting the first rough mix to cassette &mdash; in an overnight session that ran from 4 p.m. to 2:20 a.m. to the Studer 2-inch tape, signed off in the studio&rsquo;s own hand on this daily session report.</p>
 
       <figure class="doc">
@@ -153,7 +185,7 @@
     </section>
 
     <section>
-      <h2>Behind the Board</h2>
+      <h2>Behind the <span class="hl">Board</span></h2>
       <ul class="credits">
         <li><span class="role">Music Recording</span><span class="name">Khalifani</span></li>
         <li><span class="role">Vocal Recording</span><span class="name">Jarvis Blackshear</span></li>
@@ -166,11 +198,6 @@
       </ul>
     </section>
 
-    <div class="callout">
-      <div class="tag">The Patchwerk Connection</div>
-      <p>Patchwerk&rsquo;s session logs capture &ldquo;Elevators&rdquo; being built in-house. On Nov 25, 1995, engineer Khalifani recorded the music &mdash; tracking live bass (Rustin) and cutting the first rough mix to cassette; engineer Jarvis Blackshear later recorded Andr&eacute;&rsquo;s vocals, and the record appears again in the logs on Feb 2, 1996 with engineer Derrick Williams. A genuine piece of the studio&rsquo;s earliest history.</p>
-    </div>
-
     <p class="note">Engineering credits shown are drawn directly from Patchwerk&rsquo;s own session logs for this record; only Patchwerk&rsquo;s documented contributions are listed here.</p>
 
     <footer>
@@ -180,5 +207,8 @@
       <div class="signoff">Patchwerk Recording Studios &middot; The Sound of Atlanta</div>
     </footer>
   </div>
+  <script>
+  (function(){var r=document.documentElement;if(!r.classList.contains('anim-on'))return;var els=document.querySelectorAll('.wrap > *:not(header)');if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('is-visible');});return;}var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');io.unobserve(e.target);}});},{threshold:0.1,rootMargin:'0px 0px -6% 0px'});els.forEach(function(e){io.observe(e);});})();
+  </script>
 </body>
 </html>

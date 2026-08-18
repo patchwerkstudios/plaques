@@ -1,0 +1,377 @@
+{
+  "_README": "Everything on the page comes from this file. Prose is a DRAFT — edit freely. Fields starting with _TODO need your input. Rebuild with: python3 build_plaques.py so-so-def-bass-all-stars",
+  "type": "album",
+  "page_title": "So So Def Bass All-Stars",
+  "description": "The story of So So Def&rsquo;s Bass All-Stars compilation series, documented across 36 Patchwerk session reports from August 1996 to May 1999, with the studio&rsquo;s own paperwork.",
+  "eyebrow": "Studio 995 Hallway",
+  "title": "So So Def Bass All-Stars",
+  "artist": "Various Artists &middot; So So Def Recordings",
+  "feature": "Thirty-six Patchwerk session reports trace three years of Jermaine Dupri&rsquo;s bass-music label &mdash; from a <span class=\"hl\">My Boo</span> remix in 1996 to Lil Jon&rsquo;s earliest sessions to the one sheet that names <span class=\"hl\">Vol. 3</span> outright.",
+  "_NOTE_spotify": "Album id from open.spotify.com/album/4OvlVWT9yAqdPo45njdfU7 — verified against Discogs release r1605042: 14 tracks, same order, same titles. This is Vol. 1 (1996) specifically; the series has no single Spotify entity, so Vol. 1 stands in for the page's player.",
+  "spotify": "4OvlVWT9yAqdPo45njdfU7",
+  "_NOTE_schema": "Feeds the MusicAlbum structured data in the page head. Not rendered visually. Tracks are Vol. 1's running order (Columbia CK 67532, released 22 May 1996) — the series ran three numbered volumes (1996, 1997, 1998) and Patchwerk's sessions are billed to the label, not tied one-to-one with a volume, so Vol. 1 is used as the schema's anchor release rather than implying a single unified tracklist.",
+  "schema": {
+    "datePublished": "1996-05-22",
+    "label": "So So Def / Columbia",
+    "genre": [
+      "Bass music",
+      "Miami bass",
+      "Hip hop"
+    ],
+    "tracks": [
+      "Edward J Bass Test",
+      "My Boo",
+      "Thyow",
+      "Whatz Up, Whatz Up",
+      "Shakedown",
+      "So So Def Bass Contest",
+      "Koochie Kuterz",
+      "City Boy Bounce",
+      "Body Hop (Oh My Goodness)",
+      "Sexiest",
+      "Intro",
+      "Mega Mix",
+      "Let It Burn",
+      "Edward J Bass Test Outro"
+    ]
+  },
+  "meta": [
+    {
+      "k": "Years",
+      "v": "1996&ndash;1999"
+    },
+    {
+      "k": "Label",
+      "v": "So So Def / Columbia"
+    },
+    {
+      "k": "Vol. 1 Peak",
+      "v": "No. 32 Billboard 200"
+    },
+    {
+      "k": "Vol. 1 Certified",
+      "v": "Gold (RIAA)"
+    },
+    {
+      "k": "Sessions Here",
+      "v": "36 logged"
+    }
+  ],
+  "sections": [
+    {
+      "type": "prose",
+      "h2": "The <span class=\"hl\">Story</span>",
+      "paras": [
+        "Before trap had a name, Jermaine Dupri&rsquo;s So So Def put a different Atlanta sound on wax: bass music, the 808-driven, call-and-response strain that ran Southern radio and skating rinks through the mid-&rsquo;90s. Between 1996 and 1998 the label released three volumes of <em>So So Def Bass All-Stars</em>, compiling the DJs, producers and one-off vocalists working that lane &mdash; Ghost Town DJ&rsquo;s, Playa Poncho, Trigga Man, Zae&rsquo;, and a young Jonathan &ldquo;Lil Jon&rdquo; Smith arranging, mixing and producing across nearly every track.",
+        "Of the 36 session reports that touch this catalogue, one names a volume outright: <strong>13 August 1998</strong>, engineer <strong>Mike Wilson</strong> at the board, logging &ldquo;Editing / snippets&rdquo; with a project line reading <em>&ldquo;All Stars Vol 3.&rdquo;</em> The rest bill the client simply as <em>So So Def</em> &mdash; the label, in its bass era, working out of these rooms week after week.",
+        {
+          "type": "video",
+          "src": "videos/so-so-def-bass-all-stars.mp4",
+          "poster": "so-so-def-bass-all-stars.jpg",
+          "aspect": 56.25,
+          "caption": "A clip from the &ldquo;An Origin Story with the ATL Greats&rdquo; podcast, filmed at Patchwerk&rsquo;s SSL console &mdash; two guests in conversation with the studio&rsquo;s mark animating on the screen between them."
+        },
+        "What the sheets do show is a label building its sound in real time. <em>My Boo</em>, the Ghost Town DJ&rsquo;s single that became the series&rsquo; biggest hit, was mixed and re-tracked at Patchwerk across three sessions in August and September 1996. That December, a run of overnight dates tracked, mixed and remixed Lil Jon&rsquo;s own early productions &mdash; <em>Booty Time</em>, <em>Booty Call</em>, <em>Bad</em> &mdash; years before he had a solo career of his own. <em>Freak It</em> got an edit session in March 1997 and a remix mix that September; <em>Drop Them Bo&rsquo;s on Em</em>, <em>Mind Busters</em> and <em>Trick Bustas</em> filled out the run through 1998 and into 1999."
+      ]
+    },
+    {
+      "type": "stats",
+      "h2": "In Our <span class=\"hl\">Rooms</span>",
+      "items": [
+        {
+          "n": "36",
+          "l": "Logged sessions"
+        },
+        {
+          "n": "18",
+          "l": "Tier A sessions"
+        },
+        {
+          "n": "9",
+          "l": "Distinct songs named"
+        },
+        {
+          "n": "3",
+          "l": "Volumes released, 1996&ndash;98"
+        },
+        {
+          "n": "1996",
+          "l": "First session"
+        },
+        {
+          "n": "1999",
+          "l": "Last session"
+        }
+      ]
+    },
+    {
+      "type": "qa",
+      "h2": "The <span class=\"hl\">Recording</span>",
+      "_NOTE": "Each answer leads with a complete, standalone fact naming the album, artist and studio, so it reads correctly when an AI answer engine or search snippet quotes the first sentence in isolation. Detail follows.",
+      "items": [
+        {
+          "kicker": "The Studio",
+          "q": "Was So So Def Bass All-Stars recorded at Patchwerk Recording Studios?",
+          "a": "So So Def&rsquo;s <em>Bass All-Stars</em> compilation series was assembled in part at Patchwerk Recording Studios in Atlanta, whose own daily session reports document <strong>36 sessions</strong> billed to the label between August 1996 and May 1999. One of those sheets names a specific volume &mdash; 13 August 1998, engineer Mike Wilson, logging work on &ldquo;All Stars Vol 3&rdquo; &mdash; while the rest are billed to the label across its bass-era catalogue."
+        },
+        {
+          "kicker": "My Boo",
+          "q": "Where was Ghost Town DJ&rsquo;s &ldquo;My Boo&rdquo; mixed?",
+          "a": "Ghost Town DJ&rsquo;s &ldquo;My Boo,&rdquo; the breakout single from <em>So So Def Bass All-Stars Vol. 1</em>, was mixed at Patchwerk Recording Studios on <strong>10 August 1996</strong> by engineer Carlos Glover with Jarvis Blackshear assisting &mdash; a 5.75-hour session logged simply as &ldquo;Mixed &lsquo;My Boo&rsquo; Remix&rdquo; for client So So Def. Additional tracking and a recall-and-remix followed on 1 and 3 September 1996."
+        },
+        {
+          "kicker": "Lil Jon&rsquo;s Early Sessions",
+          "q": "Did Lil Jon work at Patchwerk before he was a solo star?",
+          "a": "Yes &mdash; Patchwerk&rsquo;s session reports place Jonathan &ldquo;Lil Jon&rdquo; Smith&rsquo;s music in the building as early as <strong>December 1996</strong>, years before his own albums, tracking and mixing &ldquo;Booty Time&rdquo; / &ldquo;Booty Call&rdquo; over four sessions that month &mdash; two of them billed as &ldquo;Lil John/So So Def,&rdquo; the others billed as &ldquo;So So Def&rdquo; alone and &ldquo;So So Def/ZAE.&rdquo; The March and September 1997 sheets add &ldquo;Freak It,&rdquo; credited to Lil Jon &amp; the East Side Boyz, including its edit session and a later remix mix."
+        },
+        {
+          "kicker": "The Volume 3 Sheet",
+          "q": "Which Patchwerk session names So So Def Bass All-Stars Vol. 3 directly?",
+          "a": "A <strong>13 August 1998</strong> session report names <em>&ldquo;All Stars Vol 3&rdquo;</em> directly: engineer Mike Wilson logged three hours of &ldquo;Editing / snippets&rdquo; under that project line. Every other session in the run, going back to 1996, bills the client simply as &ldquo;So So Def.&rdquo;"
+        },
+        {
+          "kicker": "The Span",
+          "q": "How long did Patchwerk work on the So So Def Bass All-Stars series?",
+          "a": "Patchwerk&rsquo;s session reports touching the <em>Bass All-Stars</em> series run nearly three years, from a &ldquo;My Boo&rdquo; remix mix on <strong>10 August 1996</strong> to a one-hour &ldquo;Break You Off&rdquo; drop-off session on <strong>15 May 1999</strong> &mdash; well past Vol. III&rsquo;s 1998 release, suggesting Patchwerk&rsquo;s relationship with the label&rsquo;s bass catalogue outlasted the numbered volumes themselves."
+        },
+        {
+          "kicker": "Deeper Catalogue",
+          "q": "What other So So Def bass tracks were cut at Patchwerk?",
+          "a": "Beyond the marquee singles, Patchwerk&rsquo;s sheets name a run of deeper-catalogue bass tracks recorded for So So Def: &ldquo;Mind Busters&rdquo; (28 August 1997), &ldquo;Drop Them Bo&rsquo;s on Em&rdquo; (10 February 1998), the &ldquo;When Will I&rdquo; bass remix (three sessions, September&ndash;November 1998) and &ldquo;Trick Bustas&rdquo; (27 January 1999) &mdash; the B-side and mixtape material that filled out the label&rsquo;s bass catalogue between the numbered compilations."
+        }
+      ]
+    },
+    {
+      "type": "songs",
+      "h2": "Named on the <span class=\"hl\">Sheets</span>",
+      "intro": "Not a running order &mdash; the series spans three volumes and Patchwerk&rsquo;s sheets bill the label, not the disc. These are the songs named on Tier A session reports between 1996 and 1999, with the count of separate sessions each one logged.",
+      "items": [
+        {
+          "n": "1",
+          "t": "My Boo <span class=\"hl\">(Ghost Town DJ&rsquo;s)</span>",
+          "c": "3 sessions"
+        },
+        {
+          "n": "2",
+          "t": "Booty Time / Booty Call <span class=\"hl\">(Lil Jon)</span>",
+          "c": "4 sessions"
+        },
+        {
+          "n": "3",
+          "t": "Freak It <span class=\"hl\">(Lil Jon &amp; the East Side Boyz)</span>",
+          "c": "2 sessions"
+        },
+        {
+          "n": "4",
+          "t": "Bass Interlude / So So Def Quartet",
+          "c": "1 session"
+        },
+        {
+          "n": "5",
+          "t": "Mind Busters",
+          "c": "1 session"
+        },
+        {
+          "n": "6",
+          "t": "DJ Nabs Mix Tape Vol. 2",
+          "c": "1 session"
+        },
+        {
+          "n": "7",
+          "t": "Drop Them Bo&rsquo;s on Em",
+          "c": "1 session"
+        },
+        {
+          "n": "8",
+          "t": "When Will I (Bass Remix)",
+          "c": "3 sessions"
+        },
+        {
+          "n": "9",
+          "t": "Trick Bustas",
+          "c": "1 session"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "h2": "Session <span class=\"hl\">Log</span>",
+      "intro": "Drawn from the studio&rsquo;s daily session reports. Client is billed &ldquo;So So Def&rdquo; throughout unless noted; room was not recorded on these forms.",
+      "show": 7,
+      "items": [
+        {
+          "when": "10 August 1996",
+          "what": "Mixed the <em>My Boo</em> remix. 5.75 hrs.",
+          "who": "Carlos Glover, asst. Jarvis Blackshear",
+          "key": true
+        },
+        {
+          "when": "1 September 1996",
+          "what": "Additional tracking for <em>My Boo</em>.",
+          "who": "J. Blackshear &middot; client &ldquo;So So Def &ndash; Janie&rdquo;"
+        },
+        {
+          "when": "3 September 1996",
+          "what": "Recalled and mixed <em>My Boo</em> again.",
+          "who": "J. Blackshear &middot; 4 hrs"
+        },
+        {
+          "when": "25 October 1996",
+          "what": "Final tracking and mix of &ldquo;Lovey With Me&rdquo; &mdash; 112, client billed &ldquo;So So Def/Bad Boy.&rdquo;",
+          "who": "Carlos Glover, asst. J. Butler &middot; 10.5 hrs"
+        },
+        {
+          "when": "8 December 1996",
+          "what": "Tracked <em>Booty Call</em> &mdash; the earliest Patchwerk sheet naming Lil Jon&rsquo;s music.",
+          "who": "Mike Wilson &middot; 1am&ndash;8:30am, 7.5 hrs",
+          "key": true
+        },
+        {
+          "when": "14 December 1996",
+          "what": "Retracked the 808 and put vocals to computer on <em>Booty Call</em>.",
+          "who": "J. Butler &middot; client &ldquo;Lil John/So So Def&rdquo;"
+        },
+        {
+          "when": "15 December 1996",
+          "what": "Mixed <em>Booty Time</em> and <em>Booty Call</em>.",
+          "who": "J. Butler &middot; 1:30am&ndash;9am, 7.5 hrs"
+        },
+        {
+          "when": "17 December 1996",
+          "what": "Remixed <em>Booty Time</em>.",
+          "who": "J. Butler &middot; client &ldquo;So So Def/ZAE&rdquo;"
+        },
+        {
+          "when": "23 March 1997",
+          "what": "Edited several versions of <em>Freak It</em> in Prisma, loopback to DATs.",
+          "who": "Mike Wilson &middot; client &ldquo;So So Def &ndash; John &amp; Paul&rdquo; &middot; 2 hrs",
+          "key": true
+        },
+        {
+          "when": "24 March 1997",
+          "what": "Tracked and mixed <em>Bass Interlude</em> / So So Def Quartet.",
+          "who": "Khalifani &middot; 2:30am&ndash;7:45am"
+        },
+        {
+          "when": "28 August 1997",
+          "what": "Tracked vocals and mixed <em>Mind Busters</em>.",
+          "who": "Mike Wilson &middot; client &ldquo;SoSo Def &ndash; Zae&rdquo;"
+        },
+        {
+          "when": "17 September 1997",
+          "what": "Mixed the <em>Freak It</em> remix.",
+          "who": "J. Butler &middot; client &ldquo;SoSoDef / Lil John&rdquo;"
+        },
+        {
+          "when": "10 February 1998",
+          "what": "Tracked <em>Drop Them Bo&rsquo;s on Em</em>.",
+          "who": "Mike Wilson"
+        },
+        {
+          "when": "13 August 1998",
+          "what": "The one sheet in the run naming a volume outright: &ldquo;Editing / snippets &hellip; All Stars Vol 3.&rdquo;",
+          "who": "Mike Wilson &middot; 3 hrs",
+          "key": true
+        },
+        {
+          "when": "24 September 1998",
+          "what": "Tracked the &ldquo;When Will I&rdquo; bass remix.",
+          "who": "J. Butler &middot; client &ldquo;Carl Mo / So So Def&rdquo; &middot; 8.25 hrs"
+        },
+        {
+          "when": "27 January 1999",
+          "what": "Radio edit of <em>Trick Bustas</em>.",
+          "who": "Mike Wilson"
+        },
+        {
+          "when": "15 May 1999",
+          "what": "The final session in the run: a one-hour drop-off of <em>Break You Off</em>.",
+          "who": "Mike Wilson &middot; client &ldquo;SoSo Def &ndash; Latham&rdquo; &middot; 9am&ndash;10am",
+          "key": true
+        }
+      ]
+    },
+    {
+      "type": "scans",
+      "h2": "From Patchwerk&rsquo;s <span class=\"hl\">Archive</span>",
+      "intro": "Five of the studio&rsquo;s own daily session reports for this run, in the engineers&rsquo; hands.",
+      "hint": "Swipe for all five reports",
+      "items": [
+        {
+          "file": "IMG_0492.jpg",
+          "short": "My Boo &middot; 1996",
+          "caption": "10 August 1996 &middot; Carlos Glover, asst. Jarvis Blackshear &middot; client &ldquo;So So Def&rdquo; &middot; &ldquo;Mixed &lsquo;My Boo&rsquo; Remix&rdquo; &middot; 5.75 hrs, one 60-minute DAT logged."
+        },
+        {
+          "file": "IMG_0631.jpg",
+          "short": "Lil Jon debut &middot; 1996",
+          "caption": "8 December 1996 &middot; Mike Wilson &middot; client &ldquo;So So Def&rdquo; &middot; overnight tracking session logged &ldquo;Booty Call&rdquo; &middot; 1am&ndash;8:30am &middot; margin note reads &ldquo;$65.00.&rdquo;"
+        },
+        {
+          "file": "IMG_0801.jpg",
+          "short": "Freak It &middot; 1997",
+          "caption": "23 March 1997 &middot; Mike Wilson &middot; client &ldquo;So So Def &ndash; John &amp; Paul&rdquo; &middot; &ldquo;Edit several versions of &lsquo;Freak It&rsquo; in Prisma, loopback to DATs&rdquo; &middot; 2 hrs."
+        },
+        {
+          "file": "IMG_1897_085a68d3.jpg",
+          "short": "Vol. 3 named &middot; 1998",
+          "caption": "13 August 1998 &middot; Mike Wilson &middot; client &ldquo;SoSo Def&rdquo; &middot; the one sheet in this run that names a volume outright: &ldquo;Editing, snippets &hellip; All Stars Vol 3&rdquo; &middot; 3 hrs."
+        },
+        {
+          "file": "IMG_2580_9275aca5.jpg",
+          "short": "Last session &middot; 1999",
+          "caption": "15 May 1999 &middot; Mike Wilson &middot; client &ldquo;SoSo Def &ndash; Latham&rdquo; &middot; the final sheet in the run, a one-hour drop-off logged &ldquo;Break You Off.&rdquo;"
+        }
+      ]
+    },
+    {
+      "type": "credits",
+      "h2": "Behind the <span class=\"hl\">Board</span>",
+      "intro": "Patchwerk staff who logged sessions on this catalogue, by session count.",
+      "items": [
+        {
+          "role": "Tracking / Mixing",
+          "name": "J. Butler &middot; 14 sessions (+3 assisting)"
+        },
+        {
+          "role": "Tracking / Mixing",
+          "name": "Mike Wilson &middot; 12 sessions"
+        },
+        {
+          "role": "Tracking / Mixing",
+          "name": "Carlos Glover &middot; 3 sessions"
+        },
+        {
+          "role": "Tracking",
+          "name": "J. Blackshear (Jarvis Blackshear) &middot; 3 sessions"
+        },
+        {
+          "role": "Tracking",
+          "name": "NHP / NHP Sound &middot; 3 sessions"
+        },
+        {
+          "role": "Assistant",
+          "name": "Khalfani / Khalifani &middot; 3 sessions (spelling varies sheet to sheet)"
+        },
+        {
+          "role": "First Session",
+          "name": "Carlos Glover &middot; 10 Aug 1996"
+        },
+        {
+          "role": "Rooms",
+          "name": "Not logged &mdash; the Studio/Room field was left blank on all 36 reports"
+        },
+        {
+          "role": "At",
+          "name": "Patchwerk Recording Studio &middot; 995 McMillan Street, Atlanta (per the 1996&ndash;99 letterhead)"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tag": "Why it matters",
+      "body": "Long before trap had a name, this is where Atlanta&rsquo;s bass sound got made &mdash; the same rooms, six years before <em>Trap Muzik</em>. Lil Jon&rsquo;s name is on a Patchwerk sheet in December 1996, four years before his own solo career took off, tracking bass records for the label that gave him his start."
+    }
+  ],
+  "note": "Engineering credits shown are drawn directly from Patchwerk&rsquo;s own session logs for this catalogue; only Patchwerk&rsquo;s documented contributions are listed here."
+}

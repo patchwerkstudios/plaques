@@ -1,0 +1,371 @@
+{
+  "_README": "Everything on the page comes from this file. Prose is a DRAFT — edit freely. Fields starting with _TODO need your input. Rebuild with: python3 build_plaques.py yg-my-krazy-life",
+  "type": "album",
+  "page_title": "My Krazy Life",
+  "description": "The story of YG's My Krazy Life, built at Patchwerk Recording Studios across 48 logged sessions, with the studio's own session reports — including the night Def Jam ran three rooms at once.",
+  "eyebrow": "Studio 9000 Hallway",
+  "title": "My Krazy Life",
+  "artist": "YG",
+  "feature": "For five months in 2013, Def Jam didn&rsquo;t book a room here &mdash; it took the building. <span class=\"hl\">48 sessions</span> across three studios, DJ Mustard and P-Lo making beats down the hall while the vocals were cut.",
+  "_NOTE_spotify": "Album id from open.spotify.com/album/6HzHon4QSFPGPFIjjlZN0n — verified as the 2014 Def Jam release, 14 tracks, release date 2014-03-18 matches (distinct from the Deluxe edition ids). Album ids get the tall 352px player with a tracklist.",
+  "spotify": "6HzHon4QSFPGPFIjjlZN0n",
+  "_NOTE_schema": "Feeds the MusicAlbum structured data in the page head. Not rendered visually.",
+  "schema": {
+    "datePublished": "2014-03-18",
+    "label": "CTE World / Pu$haz Ink / Def Jam Recordings",
+    "genre": [
+      "West Coast hip hop",
+      "Gangsta rap",
+      "Hip hop"
+    ],
+    "tracks": [
+      "Momma Speech Intro",
+      "BPT",
+      "I Just Wanna Party",
+      "Left, Right",
+      "Bicken Back Being Bool",
+      "Meet the Flockers",
+      "My Nigga",
+      "Do It to Ya",
+      "Me & My Bitch",
+      "Who Do You Love?",
+      "Really Be (Smokin N Drinkin)",
+      "1AM",
+      "Thank God",
+      "Sorry Momma"
+    ]
+  },
+  "meta": [
+    {
+      "k": "Year",
+      "v": "2014"
+    },
+    {
+      "k": "Label",
+      "v": "CTE / Pu$haz Ink / Def Jam"
+    },
+    {
+      "k": "Peak",
+      "v": "No. 2 Billboard 200"
+    },
+    {
+      "k": "Certified",
+      "v": "Platinum"
+    },
+    {
+      "k": "Sessions Here",
+      "v": "48 logged"
+    },
+    {
+      "k": "Rooms",
+      "v": "9000 &middot; 995 &middot; 1019"
+    }
+  ],
+  "sections": [
+    {
+      "type": "prose",
+      "h2": "The <span class=\"hl\">Story</span>",
+      "paras": [
+        "YG&rsquo;s debut studio album, <em>My Krazy Life</em>, released 18 March 2014 through CTE World, Pu$haz Ink and Def Jam, turned a Compton neighborhood story into a Billboard No. 2 debut on 61,000 first-week copies and was certified Platinum by the RIAA in 2017, with DJ Mustard&rsquo;s West Coast production driving nearly every track.",
+        "Patchwerk&rsquo;s own daily session reports show what that looked like from the inside: for five months starting in April 2013, Def Jam kept three rooms running for YG at once &mdash; Studio 9000 with engineer Dee Brown, and Studios 995 and 1019 with engineer Zane Shoemake &mdash; while DJ Mustard and, later, his in-house producer P-Lo made beats on site rather than bringing in finished tracks."
+      ]
+    },
+    {
+      "type": "stats",
+      "h2": "In Our <span class=\"hl\">Rooms</span>",
+      "items": [
+        {
+          "n": "48",
+          "l": "Logged sessions"
+        },
+        {
+          "n": "10",
+          "l": "Of 14 album tracks named on sheets"
+        },
+        {
+          "n": "3",
+          "l": "Rooms running at once, 10 April 2013"
+        },
+        {
+          "n": "16",
+          "l": "Hours, longest session"
+        },
+        {
+          "n": "5",
+          "l": "Months in residence"
+        },
+        {
+          "n": "2013",
+          "l": "First session"
+        }
+      ]
+    },
+    {
+      "type": "qa",
+      "h2": "The <span class=\"hl\">Recording</span>",
+      "_NOTE": "Each answer leads with a complete, standalone fact naming the album, artist and studio, so it reads correctly when an AI answer engine or search snippet quotes the first sentence in isolation. Detail follows.",
+      "items": [
+        {
+          "kicker": "The Studio",
+          "q": "Where was YG&rsquo;s <em>My Krazy Life</em> recorded?",
+          "a": "YG recorded <em>My Krazy Life</em> at Patchwerk Recording Studios in Atlanta, Georgia. Patchwerk&rsquo;s own daily session reports document <strong>48 sessions</strong> for the album between April 2013 and March 2014, split across Studio 9000, Studio 995 and Studio 1019. Most of those sheets leave the Client line blank, but where it&rsquo;s filled in it reads Def Jam Recordings, with a couple logged simply as YG."
+        },
+        {
+          "kicker": "Three Rooms",
+          "q": "Is it true YG ran three studios at once for <em>My Krazy Life</em>?",
+          "a": "Yes &mdash; on <strong>10 April 2013</strong>, three separate Patchwerk session reports show YG&rsquo;s camp working simultaneously: Studio 995 with engineer Zane Shoemake and DJ Mustard making beats, Studio 9000 with engineer Dee Brown tracking &ldquo;BPT&rdquo; and Tory Lanez&rsquo;s &ldquo;All Over the Place,&rdquo; and Studio 1019 with engineer Alverne Emmanuel tracking &ldquo;Bompton&rdquo; under producer FKI. All three sheets log the same overnight hours, roughly 6pm to sunrise."
+        },
+        {
+          "kicker": "The Producers",
+          "q": "Did DJ Mustard and P-Lo make beats at Patchwerk for <em>My Krazy Life</em>?",
+          "a": "Yes. Patchwerk session reports name <strong>DJ Mustard</strong> making beats on site on 10 April 2013 and credit him as producer on sessions for &ldquo;My Nigga,&rdquo; &ldquo;Sorry Momma&rdquo; and others; client hard drives are repeatedly labeled &ldquo;Mustard Drive&rdquo; in the paperwork through the whole residency. <strong>P-Lo</strong> is separately logged making beats in Studio 1019 across two overnight sessions, 29&ndash;30 July 2013."
+        },
+        {
+          "kicker": "The Engineers",
+          "q": "Who engineered <em>My Krazy Life</em> at Patchwerk?",
+          "a": "<strong>Dee Brown</strong> engineered <em>My Krazy Life</em> at Patchwerk Recording Studios, logging <strong>29 sessions</strong> &mdash; the largest share of the record by far, all but two of them in Studio 9000 (the other two in Studio 995). <strong>Zane Shoemake</strong> engineered 12 sessions split between Studio 995 and Studio 1019, and Alverne Emmanuel assisted on tracking dates in 1019. Kenneth &ldquo;K. Rich&rdquo; Richmond assisted a Dee Brown session in Studio 9000, and separately turns up as primary engineer in a room logged &ldquo;1019 / 995&rdquo; &mdash; the session moved rooms mid-take after the computer cut off."
+        },
+        {
+          "kicker": "My Nigga",
+          "q": "When was &ldquo;My Nigga&rdquo; recorded?",
+          "a": "YG&rsquo;s &ldquo;My Nigga&rdquo; (feat. Rich Homie Quan &amp; Jeezy) was first tracked at Patchwerk Recording Studios on <strong>11 April 2013</strong>, in Studio 995 with DJ Mustard producing and Zane Shoemake engineering a sixteen-hour overnight session, 6pm to 10am. The song was worked twice more that year, on 14 May and 30 July, before the album released the following March."
+        },
+        {
+          "kicker": "The Listening Party",
+          "q": "Did Patchwerk host a listening session before <em>My Krazy Life</em> came out?",
+          "a": "Yes &mdash; a Patchwerk session report from <strong>4 March 2014</strong>, Studio 9000, logs a &ldquo;Listening Party&rdquo; with engineer Dee Brown, two weeks before <em>My Krazy Life</em> released on 18 March 2014. It closes out the album&rsquo;s Patchwerk paper trail, nearly a year after the first session in the same room."
+        }
+      ]
+    },
+    {
+      "type": "songs",
+      "h2": "Cut <span class=\"hl\">Here</span>",
+      "intro": "Ten of the album&rsquo;s fourteen tracks are named directly in Patchwerk&rsquo;s daily session reports &mdash; the count after each title is how many separate sessions logged that song between April 2013 and March 2014. &ldquo;Momma Speech Intro,&rdquo; &ldquo;I Just Wanna Party,&rdquo; &ldquo;Do It to Ya&rdquo; and &ldquo;1AM&rdquo; don&rsquo;t appear by name on any Patchwerk sheet and aren&rsquo;t listed here.",
+      "_NOTE_counts": "Counts drawn from the 'Album tracks / titles on sheet' column across the 48 distinct sessions (3 explicit duplicate-photograph pairs, flagged in the Notes column, collapsed to one session each). Running order verified against the Spotify release 6HzHon4QSFPGPFIjjlZN0n.",
+      "items": [
+        {
+          "n": "2",
+          "t": "BPT",
+          "c": "2 sessions"
+        },
+        {
+          "n": "4",
+          "t": "Left, Right",
+          "c": "1"
+        },
+        {
+          "n": "5",
+          "t": "Bicken Back Being Bool",
+          "c": "1"
+        },
+        {
+          "n": "6",
+          "t": "Meet the Flockers",
+          "c": "1"
+        },
+        {
+          "n": "7",
+          "t": "My Nigga",
+          "c": "3"
+        },
+        {
+          "n": "9",
+          "t": "Me &amp; My Bitch",
+          "c": "2"
+        },
+        {
+          "n": "10",
+          "t": "Who Do You Love?",
+          "c": "1"
+        },
+        {
+          "n": "11",
+          "t": "Really Be (Smokin N Drinkin)",
+          "c": "2"
+        },
+        {
+          "n": "13",
+          "t": "Thank God",
+          "c": "1"
+        },
+        {
+          "n": "14",
+          "t": "Sorry Momma",
+          "c": "3"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "h2": "Session <span class=\"hl\">Log</span>",
+      "intro": "Drawn from the studio&rsquo;s daily session reports. Three sheets in this run were photographed twice and are counted once here.",
+      "show": 8,
+      "items": [
+        {
+          "when": "8 April 2013 &middot; Studio 1019 &amp; 9000",
+          "what": "The residency opens: a beatmaking session in 1019 while &ldquo;The Homie&rdquo; is tracked overnight in 9000 &mdash; DJ Mustard&rsquo;s own beatmaking date at Patchwerk follows two nights later, in Studio 995.",
+          "who": "Zane Shoemake &middot; Dee Brown &middot; 10.5 hrs",
+          "key": true
+        },
+        {
+          "when": "10 April 2013 &middot; Studios 995, 9000 &amp; 1019",
+          "what": "Three rooms running the same overnight hours: DJ Mustard making beats in 995, &ldquo;BPT&rdquo; and Tory Lanez&rsquo;s &ldquo;All Over the Place&rdquo; tracked in 9000, &ldquo;Bompton&rdquo; tracked in 1019.",
+          "who": "Zane Shoemake &middot; Dee Brown &middot; Alverne Emmanuel &middot; 6pm&ndash;dawn",
+          "key": true
+        },
+        {
+          "when": "11 April 2013 &middot; Studio 995",
+          "what": "&ldquo;My Nigga&rdquo; (feat. Rich Homie Quan &amp; Jeezy) tracked in a sixteen-hour overnight session, DJ Mustard producing.",
+          "who": "Zane Shoemake &middot; 6pm&ndash;10am &middot; 16 hrs",
+          "key": true
+        },
+        {
+          "when": "11 April 2013 &middot; Studio 1019",
+          "what": "&ldquo;Me &amp; My Bitch&rdquo; tracked &mdash; a Tory Lanez hook, live violins, and a hook for &ldquo;Boyz N Da Hood.&rdquo;",
+          "who": "Alverne Emmanuel &middot; 14 hrs"
+        },
+        {
+          "when": "3&ndash;4 May 2013 &middot; Studio 9000",
+          "what": "&ldquo;Me &amp; My Bitch&rdquo; and the working title &ldquo;Ghetto&rdquo; tracked across two overnight sessions.",
+          "who": "Dee Brown"
+        },
+        {
+          "when": "14 May 2013 &middot; Studio 9000",
+          "what": "&ldquo;My Nigga&rdquo; revisited alongside working titles &ldquo;Hella Ice&rdquo; and &ldquo;My Niggas.&rdquo;",
+          "who": "Dee Brown"
+        },
+        {
+          "when": "29&ndash;30 July 2013 &middot; Studio 1019",
+          "what": "P-Lo making beats on site across two sessions &mdash; the first overnight, the second an evening date &mdash; working from a client laptop.",
+          "who": "Zane Shoemake &middot; 29th 8pm&ndash;8am, 30th 3pm&ndash;12am",
+          "key": true
+        },
+        {
+          "when": "14 August 2013 &middot; Studio 9000",
+          "what": "&ldquo;Really Be (Smokin N Drinkin)&rdquo; tracked, TY$ producing, in a thirteen-hour overnight session; a Complex Media interview and video shoot ran in the same room earlier that afternoon.",
+          "who": "Dee Brown &middot; Luke Campolieta"
+        },
+        {
+          "when": "16 August 2013 &middot; Studio 9000",
+          "what": "&ldquo;Really Be,&rdquo; &ldquo;Who Do You Love?&rdquo; and &ldquo;Sorry Momma&rdquo; all tracked in one 14.5-hour day.",
+          "who": "Dee Brown &middot; 6pm&ndash;8:30am",
+          "key": true
+        },
+        {
+          "when": "17 August 2013 &middot; Studio 9000",
+          "what": "&ldquo;Left, Right&rdquo; and &ldquo;Sorry Momma&rdquo; tracked.",
+          "who": "Dee Brown, asst. Luke O."
+        },
+        {
+          "when": "20 August 2013 &middot; Studio 9000",
+          "what": "&ldquo;Thank God&rdquo; and &ldquo;Bicken Back Being Bool&rdquo; tracked.",
+          "who": "Dee Brown"
+        },
+        {
+          "when": "28 August 2013 &middot; Studio 9000",
+          "what": "&ldquo;Meet the Flockers&rdquo; tracked.",
+          "who": "Dee Brown &middot; 7pm&ndash;9am &middot; 12 hrs"
+        },
+        {
+          "when": "30 August 2013 &middot; Studios 1019, 995 &amp; 9000",
+          "what": "Three rooms again: beats arranged in 1019, keyboard tracked in 995, and &ldquo;Sorry Momma&rdquo; finished in 9000 with DJ Mustard and Terrace Martin producing.",
+          "who": "Zane Shoemake &middot; Dee Brown",
+          "key": true
+        },
+        {
+          "when": "29 September 2013 &middot; Studio 995",
+          "what": "A single-deal session logged as &ldquo;Freaky Dance&rdquo; &mdash; the last of the main residency.",
+          "who": "Dee Brown"
+        },
+        {
+          "when": "4 March 2014 &middot; Studio 9000",
+          "what": "A listening party, two weeks before the album&rsquo;s release.",
+          "who": "Dee Brown",
+          "key": true
+        }
+      ]
+    },
+    {
+      "type": "scans",
+      "h2": "From Patchwerk&rsquo;s <span class=\"hl\">Archive</span>",
+      "intro": "Five of the studio&rsquo;s own daily session reports for this album, in the engineers&rsquo; hands &mdash; three of them from the same overnight, 10 April 2013.",
+      "hint": "Swipe for all five reports",
+      "items": [
+        {
+          "file": "IMG_2746_e3f7995b.jpg",
+          "short": "995 &middot; Mustard beats",
+          "caption": "10 April 2013 &middot; Studio 995 &middot; Zane Shoemake, client Def Jam &middot; &ldquo;making beats &mdash; DJ Mustard&rdquo; then tracking &middot; 6pm&ndash;8:30am"
+        },
+        {
+          "file": "IMG_2749_97032466.jpg",
+          "short": "9000 &middot; Bompton",
+          "caption": "10 April 2013 &middot; Studio 9000 &middot; Dee Brown, asst. Kenneth &ldquo;K. Rich&rdquo; Richmond &middot; &ldquo;Listen to Tracks,&rdquo; Tory Lanez&rsquo;s &ldquo;All Over the Place,&rdquo; and &ldquo;Bompton feat. Natasha Mosley&rdquo; tracked &middot; 6pm&ndash;10am, 16 hours"
+        },
+        {
+          "file": "IMG_2750_346b1819.jpg",
+          "short": "1019 &middot; Bompton",
+          "caption": "10 April 2013 &middot; Studio 1019 &middot; asst. Alverne Emmanuel, prod. FKI &middot; &ldquo;Making Beats&rdquo; and &ldquo;Bompton&rdquo; tracked the same overnight as the 995 and 9000 sessions &middot; 6pm&ndash;9am"
+        },
+        {
+          "file": "IMG_2755_b918b560.jpg",
+          "short": "My Nigga tracked",
+          "caption": "11 April 2013 &middot; Studio 995 &middot; Zane Shoemake, prod. DJ Mustard &middot; &ldquo;My Nigga&rdquo; feat. Rich Homie Quan tracked in a sixteen-hour overnight session"
+        },
+        {
+          "file": "IMG_3176_cc4a27fd.jpg",
+          "short": "P-Lo making beats",
+          "caption": "29 July 2013 &middot; Studio 1019 &middot; Zane Shoemake &middot; &ldquo;P-Lo Making Beats,&rdquo; on a client laptop, 8pm&ndash;8am"
+        }
+      ]
+    },
+    {
+      "type": "credits",
+      "h2": "Behind the <span class=\"hl\">Board</span>",
+      "intro": "Patchwerk staff who logged sessions on this album, by session count.",
+      "items": [
+        {
+          "role": "Tracking &middot; 9000 &amp; 995",
+          "name": "Dee Brown &middot; 29 sessions"
+        },
+        {
+          "role": "Tracking &middot; 995 &amp; 1019",
+          "name": "Zane Shoemake &middot; 12 sessions"
+        },
+        {
+          "role": "Tracking &middot; 1019",
+          "name": "Alverne Emmanuel"
+        },
+        {
+          "role": "Assist &middot; Tracking",
+          "name": "Kenneth &ldquo;K. Rich&rdquo; Richmond"
+        },
+        {
+          "role": "Beats On Site",
+          "name": "DJ Mustard &middot; P-Lo"
+        },
+        {
+          "role": "Press",
+          "name": "Luke Campolieta &middot; Complex Media interview, 14 Aug 2013"
+        },
+        {
+          "role": "Client",
+          "name": "Def Jam Recordings"
+        },
+        {
+          "role": "Rooms",
+          "name": "Studio 9000 &middot; Studio 995 &middot; Studio 1019"
+        },
+        {
+          "role": "At",
+          "name": "Patchwerk Recording Studios &middot; 1094 Hemphill Avenue, Atlanta"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tag": "Why it matters",
+      "body": "<em>My Krazy Life</em> is the sound of a label moving in. For five months in 2013, Def Jam ran three Patchwerk rooms at once for one artist &mdash; DJ Mustard and P-Lo making beats down the hall while Dee Brown and Zane Shoemake tracked vocals in the rooms next door."
+    }
+  ],
+  "note": "Engineering credits shown are drawn directly from Patchwerk&rsquo;s own session logs for this record; only Patchwerk&rsquo;s documented contributions are listed here."
+}

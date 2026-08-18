@@ -1,0 +1,446 @@
+{
+  "_README": "Everything on the page comes from this file. Prose is a DRAFT — edit freely. Fields starting with _TODO need your input. Rebuild with: python3 build_plaques.py jeezy-thug-motivation-101",
+  "type": "album",
+  "page_title": "Let&rsquo;s Get It: Thug Motivation 101",
+  "description": "The story of Young Jeezy&rsquo;s Let&rsquo;s Get It: Thug Motivation 101, built at Patchwerk Recording Studios across 129 logged sessions &mdash; the most heavily documented album in the studio&rsquo;s archive &mdash; with the studio&rsquo;s own session reports.",
+  "_NOTE_scan_size": "This page carries five scans; capped below the 1200px/q78 default to keep the NFC download under ~1MB.",
+  "scan_max_px": 1050,
+  "scan_quality": 74,
+  "eyebrow": "Studio 995 Hallway",
+  "title": "Let&rsquo;s Get It: Thug Motivation 101",
+  "artist": "Young Jeezy",
+  "feature": "The most heavily documented record in our archive &mdash; <span class=\"hl\">130 session reports</span>, from a two-hour vocal date in December 2003 to the June 2005 morning Shakir Stewart carried the finished materials out the door.",
+  "_NOTE_spotify": "Album id from open.spotify.com/album/6hiOeC9YErltT6CnK4pfJN — verified 2026-08-17 as the 2005 Def Jam / Jeezy release, 19 tracks, 1 hr 17 min, matching the Wikipedia running order exactly (streaming version uses the Jay-Z-featuring 'Go Crazy (Remix)'). Other Spotify listings exist for Explicit, Edited and Deluxe editions — this id is the plain 19-track original.",
+  "spotify": "6hiOeC9YErltT6CnK4pfJN",
+  "_NOTE_schema": "Feeds the MusicAlbum structured data in the page head. Not rendered visually.",
+  "schema": {
+    "datePublished": "2005-07-26",
+    "label": "Def Jam Recordings / Corporate Thugz Entertainment (CTE)",
+    "genre": [
+      "Southern hip hop",
+      "Trap",
+      "Hip hop"
+    ],
+    "tracks": [
+      "Thug Motivation 101",
+      "Standing Ovation",
+      "Gangsta Music",
+      "Let's Get It / Sky's The Limit",
+      "And Then What",
+      "Go Crazy (Remix)",
+      "Last Of A Dying Breed",
+      "My Hood",
+      "Bottom Of The Map",
+      "Get Ya Mind Right",
+      "Trap Star",
+      "Bang",
+      "Don't Get Caught",
+      "Soul Survivor",
+      "Trap Or Die",
+      "Tear It Up",
+      "That's How Ya Feel",
+      "Talk To Em",
+      "Air Forces"
+    ]
+  },
+  "meta": [
+    {
+      "k": "Year",
+      "v": "2005"
+    },
+    {
+      "k": "Label",
+      "v": "Def Jam / CTE"
+    },
+    {
+      "k": "Peak",
+      "v": "No. 2 Billboard 200"
+    },
+    {
+      "k": "Certified",
+      "v": "2&times; Platinum"
+    },
+    {
+      "k": "Sessions Here",
+      "v": "129 logged"
+    },
+    {
+      "k": "Rooms",
+      "v": "995 &middot; 9000 &middot; Dub Room"
+    }
+  ],
+  "sections": [
+    {
+      "type": "prose",
+      "h2": "The <span class=\"hl\">Story</span>",
+      "paras": [
+        "Def Jam signed Young Jeezy off the strength of his self-released mixtapes and manager Kevin &ldquo;Coach K&rdquo; Lee, who believed the street rapper could cross over; Def Jam executive Shakir Stewart brought the deal in, and Jeezy brought his own label, Corporate Thugz Entertainment, and producer Shawty Redd, whose stripped-down, minor-key beats defined the record. <em>Let&rsquo;s Get It: Thug Motivation 101</em> arrived 26 July 2005 on Def Jam and CTE, debuted at No. 2 on the Billboard 200 on 172,000 first-week copies, was certified 2&times; Platinum, and has since sold more than two million copies &mdash; a blueprint for the Atlanta trap that followed.",
+        "<em>Let&rsquo;s Get It: Thug Motivation 101</em> is the most heavily documented album in Patchwerk&rsquo;s archive &mdash; <span class=\"hl\">130 session reports</span> running from a two-hour vocal date in December 2003 to 12 June 2005, when Def Jam&rsquo;s Shakir Stewart signed for every last piece of material and took it with him, six weeks before the 26 July release. No other record in the building has this much paper behind it.",
+        {
+          "type": "video",
+          "src": "videos/jeezy-drink-champs.mp4",
+          "poster": "jeezy-drink-champs.jpg",
+          "aspect": 89.7,
+          "caption": "Jeezy on the <em>Drink Champs</em> podcast, years later, reflecting on how an intervention from T.I. led him to let go of his past life."
+        },
+        "The paper trail shows a genuine two-engineer, two-room record. Nico Solis started the sessions in January 2004 as Leslie Brathwaite&rsquo;s assistant on the mix side, then by April had become Jeezy&rsquo;s own tracking engineer, running almost every vocal date in Studio 995 through 2004 and 2005. Leslie Brathwaite stayed the record&rsquo;s dedicated mixer, working almost exclusively out of Studio 9000 &mdash; nineteen of his twenty logged sessions ran there. On at least one night, 13 October 2004, the two of them passed &ldquo;Air Force Ones&rdquo; back and forth inside a single day: written from 2pm, tracked by Nico from 10pm, handed to Leslie to mix at midnight &mdash; whose own sheet admits, &ldquo;Leslie did not finish the mix.&rdquo;",
+        "Guests came through too &mdash; Bun B and Stat Quo tracking &ldquo;Trap or Die&rdquo; verses in November 2004, Fabolous cutting a freestyle that never made the album, Mannie Fresh in the building through the spring of 2005 for &ldquo;And Then What.&rdquo; Coach K and Shakir Stewart are named again and again as the ones signing for CDs and DATs at the front desk; Patchwerk&rsquo;s sheets name all nineteen of the album&rsquo;s songs."
+      ]
+    },
+    {
+      "type": "stats",
+      "h2": "In Our <span class=\"hl\">Rooms</span>",
+      "items": [
+        {
+          "n": "129",
+          "l": "Logged sessions"
+        },
+        {
+          "n": "19",
+          "l": "All 19 album tracks"
+        },
+        {
+          "n": "19",
+          "l": "Hours, longest session"
+        },
+        {
+          "n": "3",
+          "l": "Rooms used"
+        },
+        {
+          "n": "25",
+          "l": "Days with 2+ sessions"
+        },
+        {
+          "n": "2003",
+          "l": "First session"
+        }
+      ]
+    },
+    {
+      "type": "qa",
+      "h2": "The <span class=\"hl\">Recording</span>",
+      "_NOTE": "Each answer leads with a complete, standalone fact naming the album, artist and studio, so it reads correctly when an AI answer engine or search snippet quotes the first sentence in isolation. Detail follows. These questions also feed the FAQPage structured data in the page head automatically.",
+      "items": [
+        {
+          "kicker": "The Studio",
+          "q": "Where was Young Jeezy&rsquo;s <em>Let&rsquo;s Get It: Thug Motivation 101</em> recorded?",
+          "a": "Young Jeezy recorded <em>Let&rsquo;s Get It: Thug Motivation 101</em> at Patchwerk Recording Studios in Atlanta, Georgia. Patchwerk&rsquo;s own daily session reports document <strong>129 sessions</strong> for the album between December 2003 and June 2005 &mdash; more than for any other record in the studio&rsquo;s archive &mdash; spread across Studio 995, Studio 9000 and the dub room at 1094 Hemphill Avenue. The album also used two other Atlanta rooms, Dirty South Studios and Stankonia, but Patchwerk carries the largest paper trail of the three."
+        },
+        {
+          "kicker": "The Engineers",
+          "q": "Who engineered <em>Let&rsquo;s Get It: Thug Motivation 101</em>?",
+          "a": "<strong>Nico Solis</strong> and <strong>Leslie Brathwaite</strong> engineered most of <em>Let&rsquo;s Get It: Thug Motivation 101</em> at Patchwerk Recording Studios in Atlanta &mdash; Solis tracking Young Jeezy&rsquo;s vocals in Studio 995, Brathwaite mixing in Studio 9000, where nineteen of his twenty logged sessions ran. Nico started the record in January 2004 as Leslie&rsquo;s assistant before becoming Jeezy&rsquo;s own tracking engineer that April. <strong>Steve Fisher</strong> engineered a dozen more sessions, including the album&rsquo;s longest, and <strong>Kori Anders</strong> logged 27 sessions in total &mdash; mostly as assistant to Solis and Brathwaite, but stepping up as lead engineer on at least four, including the tab&rsquo;s final session on 12 June 2005."
+        },
+        {
+          "kicker": "Two Rooms",
+          "q": "Did Young Jeezy&rsquo;s album really use two different rooms at Patchwerk?",
+          "a": "Yes &mdash; Patchwerk&rsquo;s sheets show a genuine two-room production, tracking in 995 and mixing in 9000, that occasionally closed the loop in a single day. On 13 October 2004, &ldquo;Air Force Ones&rdquo; was written in Studio 9000 from 2pm, tracked there by Nico Solis from 10pm, and handed to Leslie Brathwaite to mix from midnight &mdash; whose sheet notes plainly, &ldquo;Leslie did not finish the mix.&rdquo; Twenty-five of the album&rsquo;s 100 studio dates carry more than one session report, evidence of a record built in relay rather than a straight line."
+        },
+        {
+          "kicker": "The Guests",
+          "q": "Did Bun B record his verse for &ldquo;Trap or Die&rdquo; at Patchwerk?",
+          "a": "Yes. <strong>Bun B</strong> and <strong>Stat Quo</strong> tracked verses for &ldquo;Trap or Die&rdquo; at Patchwerk Recording Studios on <strong>16 November 2004</strong>, alongside Shawty Redd and Jeezy himself, in a ten-and-a-half-hour session engineered by Steve Fisher. Four audio CDs went out that night, one each to Jeezy, Stat Quo, Bun B and Shawty Redd &mdash; though the version that reached the album kept only Bun B&rsquo;s verse. <strong>Fabolous</strong> also tracked two guest vocals at Patchwerk on 26 August 2004, for a freestyle built on &ldquo;Problems / Everybody Move&rdquo; that never made the final tracklist."
+        },
+        {
+          "kicker": "Mixtape Culture",
+          "q": "Was Young Jeezy&rsquo;s <em>Gangsta Grillz</em> mixtape also made at Patchwerk?",
+          "a": "Yes &mdash; on 7 July 2004, Patchwerk&rsquo;s dub room hosted a session for <strong>DJ Drama&rsquo;s Gangsta Grillz tape &ldquo;The Streetz Iz Watchin,&rdquo;</strong> mixed, mastered and dubbed to DAT and CD by Steve Fisher in the same rooms, and often the same weeks, as the retail album. The mixtape circuit and the major-label record were built side by side."
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "src": "videos/jeezy-haircut-coach-k.mp4",
+      "poster": "jeezy-haircut-coach-k.jpg",
+      "aspect": 100,
+      "caption": "Raw crew footage from inside Patchwerk during the Thug Motivation 101 sessions: a fresh head shave in the barber&rsquo;s chair, the studio&rsquo;s own sign visible on the chalkboard behind it. Labeled in the archive as a haircut with Coach K, Jeezy&rsquo;s manager and the album&rsquo;s executive producer."
+    },
+    {
+      "type": "songs",
+      "h2": "Cut <span class=\"hl\">Here</span>",
+      "intro": "The album in running order. Every one of its nineteen tracks is named somewhere in Patchwerk&rsquo;s daily session reports &mdash; the count after each title is how many separate sessions logged that song between the first date in December 2003 and release in July 2005.",
+      "_NOTE_counts": "Running order verified against Wikipedia and the Spotify release 6hiOeC9YErltT6CnK4pfJN. Session counts verified 2026-08-17 against the workbook's 'Album tracks / titles on sheet' column (Tier A rows only): 77 Tier A sheets across 130 total. 'Snowman', 'Copy Machine', 'Icy', 'Blow' and 'Problems / Everybody Move' are working titles named on sheets that did not make the final 19-track album and are covered in the timeline instead.",
+      "items": [
+        {
+          "n": "1",
+          "t": "Thug Motivation 101",
+          "c": "1 session"
+        },
+        {
+          "n": "2",
+          "t": "Standing Ovation",
+          "c": "1 session"
+        },
+        {
+          "n": "3",
+          "t": "Gangsta Music",
+          "c": "6 sessions"
+        },
+        {
+          "n": "4",
+          "t": "Let&rsquo;s Get It / Sky&rsquo;s the Limit",
+          "c": "1 session"
+        },
+        {
+          "n": "5",
+          "t": "And Then What",
+          "c": "9 sessions"
+        },
+        {
+          "n": "6",
+          "t": "Go Crazy",
+          "c": "12 sessions"
+        },
+        {
+          "n": "7",
+          "t": "Last of a Dying Breed",
+          "c": "7 sessions"
+        },
+        {
+          "n": "8",
+          "t": "My Hood",
+          "c": "3 sessions"
+        },
+        {
+          "n": "9",
+          "t": "Bottom of the Map",
+          "c": "10 sessions"
+        },
+        {
+          "n": "10",
+          "t": "Get Ya Mind Right",
+          "c": "7 sessions"
+        },
+        {
+          "n": "11",
+          "t": "Trap Star",
+          "c": "4 sessions"
+        },
+        {
+          "n": "12",
+          "t": "Bang",
+          "c": "3 sessions"
+        },
+        {
+          "n": "13",
+          "t": "Don&rsquo;t Get Caught",
+          "c": "3 sessions"
+        },
+        {
+          "n": "14",
+          "t": "Soul Survivor",
+          "c": "2 sessions"
+        },
+        {
+          "n": "15",
+          "t": "Trap or Die",
+          "c": "7 sessions"
+        },
+        {
+          "n": "16",
+          "t": "Tear It Up",
+          "c": "4 sessions"
+        },
+        {
+          "n": "17",
+          "t": "That&rsquo;s How Ya Feel",
+          "c": "4 sessions"
+        },
+        {
+          "n": "18",
+          "t": "Talk to &rsquo;Em",
+          "c": "2 sessions"
+        },
+        {
+          "n": "19",
+          "t": "Air Forces",
+          "c": "10 sessions"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "h2": "Session <span class=\"hl\">Log</span>",
+      "intro": "Drawn from the studio&rsquo;s daily session reports.",
+      "show": 8,
+      "items": [
+        {
+          "when": "13 December 2003 &middot; Studio 9000",
+          "what": "The first Jeezy sheet in the archive: vocals tracked for <em>&ldquo;I&rsquo;m Hard,&rdquo;</em> Shawty Redd producing, then mixed the same evening by Leslie Brathwaite.",
+          "who": "Mike Davis, asst. Howard White &middot; 4pm&ndash;10pm &middot; 6 hrs combined",
+          "key": true
+        },
+        {
+          "when": "14 January 2004 &middot; Studio 9000",
+          "what": "Nico Solis&rsquo;s first appearance on the record, assisting Leslie Brathwaite on a recall mix of <em>&ldquo;Over Here&rdquo;</em> &mdash; a leftover cut that never made the LP.",
+          "who": "Leslie Brathwaite, asst. Nico Solis &middot; 6pm&ndash;6am &middot; 12 hrs"
+        },
+        {
+          "when": "16 January 2004 &middot; Studio 9000",
+          "what": "Four session reports filed in one calendar day: vocals tracked, then mixed, then tracked again, then mixed again &mdash; Nico Solis assisting Leslie Brathwaite on both mix blocks.",
+          "who": "Mike Davis / Leslie Brathwaite / Mark &ldquo;Exit&rdquo; Goodchild &middot; 3pm&ndash;6am"
+        },
+        {
+          "when": "5 April 2004 &middot; Studio 995",
+          "what": "Nico Solis logged as lead engineer for the first time, tracking <em>&ldquo;Last of a Dying Breed.&rdquo;</em>",
+          "who": "Nico Solis &middot; prod. Sanchez &middot; 6pm&ndash;3am &middot; 9 hrs",
+          "key": true
+        },
+        {
+          "when": "13 June 2004 &middot; Studio 995",
+          "what": "The longest single session on the tab: nineteen hours tracking <em>&ldquo;Don&rsquo;t Get Caught&rdquo;</em> and the Justice League&rsquo;s instrumental tracks.",
+          "who": "Steve Fisher &middot; prod. Justice League &middot; 3pm&ndash;10am &middot; 19 hrs",
+          "key": true
+        },
+        {
+          "when": "7 July 2004 &middot; Dub Room",
+          "what": "A Gangsta Grillz mixtape night: DJ Drama&rsquo;s <em>&ldquo;The Streetz Iz Watchin,&rdquo;</em> mixed, mastered and dubbed to DAT and CD.",
+          "who": "Steve Fisher @$40 &middot; 11pm&ndash;3:30am &middot; 4.5 hrs"
+        },
+        {
+          "when": "26 August 2004 &middot; Studio 995",
+          "what": "Fabolous tracks two guest verses &mdash; <em>&ldquo;I&rsquo;ll Make Your Life&rdquo;</em> and a <em>&ldquo;No Problems&rdquo;</em> freestyle. Three audio CDs released to Coach.",
+          "who": "Steve Fisher &middot; 4pm&ndash;1:30am &middot; 9.5 hrs",
+          "key": true
+        },
+        {
+          "when": "13 October 2004 &middot; Studio 9000",
+          "what": "<em>&ldquo;Air Force Ones&rdquo;</em> written, tracked and mixed inside a single day &mdash; Leslie Brathwaite from 2pm, Nico Solis tracking from 10pm, Leslie back at midnight. &ldquo;Leslie did not finish the mix,&rdquo; the sheet notes.",
+          "who": "Leslie Brathwaite &amp; Nico Solis, asst. Kori Anders &middot; 2pm&ndash;3am",
+          "key": true
+        },
+        {
+          "when": "8 November 2004 &middot; Studio 995",
+          "what": "The title track: <em>&ldquo;Motivation,&rdquo;</em> <em>&ldquo;Tear It Up&rdquo;</em> and <em>&ldquo;Drops&rdquo;</em> tracked overnight.",
+          "who": "Nico Solis &middot; 6pm&ndash;6am &middot; 12 hrs"
+        },
+        {
+          "when": "16 November 2004 &middot; Studio 995",
+          "what": "<strong>Bun B</strong> and <strong>Stat Quo</strong> track verses for <em>&ldquo;Trap or Die&rdquo;</em> alongside Shawty Redd and Jeezy himself. Four audio CDs go out the door.",
+          "who": "Steve Fisher &middot; prod. Shawty Redd &middot; 2pm&ndash;12:30am &middot; 10.5 hrs",
+          "key": true
+        },
+        {
+          "when": "23 March 2005 &middot; Studio 995",
+          "what": "Nico Solis logs five songs in one nine-hour sitting: <em>&ldquo;Copy Machine,&rdquo;</em> <em>&ldquo;Everybody Move,&rdquo;</em> <em>&ldquo;Tear It Up,&rdquo;</em> a working title, and <em>&ldquo;Midnight Black.&rdquo;</em>",
+          "who": "Nico Solis &middot; 9pm&ndash;6am &middot; 9 hrs"
+        },
+        {
+          "when": "29&ndash;30 March 2005 &middot; Studio 995",
+          "what": "Mannie Fresh and Shawty Redd in the building on consecutive nights for <em>&ldquo;Bottom of the Map&rdquo;</em> and <em>&ldquo;And Then What.&rdquo;</em>",
+          "who": "Nico Solis &middot; 13 hrs, then 11 hrs"
+        },
+        {
+          "when": "19 April 2005 &middot; Studio 9000",
+          "what": "Leslie Brathwaite mixes <em>&ldquo;Let&rsquo;s Get It&rdquo;</em> and <em>&ldquo;Don&rsquo;t Get Caught&rdquo;</em> back to back &mdash; eight audio CDs, two DATs and four Pro Tools DVDs logged out.",
+          "who": "Leslie Brathwaite, asst. Kori Anders &middot; 5pm&ndash;5am &middot; 12 hrs",
+          "key": true
+        },
+        {
+          "when": "24 April 2005 &middot; Studio 9000",
+          "what": "Leslie Brathwaite falls sick mid-session; the <em>&ldquo;Trap Star&rdquo;</em> mix is postponed. Jeezy stays anyway, listening back to the songs already finished.",
+          "who": "Leslie Brathwaite, asst. Kori Anders &middot; 8pm&ndash;12am"
+        },
+        {
+          "when": "27 April 2005 &middot; Studio 9000",
+          "what": "A compile session pulls <em>&ldquo;Hustle Music,&rdquo;</em> <em>&ldquo;Standing Ovation,&rdquo;</em> <em>&ldquo;Bottom of the Map,&rdquo;</em> <em>&ldquo;Last of a Dying Breed&rdquo;</em> and more onto one CD &mdash; the album taking shape.",
+          "who": "Jay Stevenson &middot; 12am&ndash;2:30am"
+        },
+        {
+          "when": "24 May 2005 &middot; Studio 995",
+          "what": "Beats and vocals for <em>&ldquo;Bottom of the Map,&rdquo;</em> <em>&ldquo;Get Ya Mind Right&rdquo;</em> and <em>&ldquo;Copy Machine&rdquo;</em> &mdash; this sheet is one of only two in the archive Patchwerk&rsquo;s own notes flag as re-photographed.",
+          "who": "Nico Solis &middot; prod. Shawty Redd &middot; 6pm&ndash;9:30pm &middot; 3.5 hrs"
+        },
+        {
+          "when": "12 June 2005 &middot; Studio 9000",
+          "what": "A recall session on <em>&ldquo;Last of a Dying Breed&rdquo;</em> and <em>&ldquo;Go Crazy.&rdquo;</em> The sheet notes: &ldquo;Shakir took All Materials.&rdquo;",
+          "who": "Kori Anders &middot; 1pm&ndash;6:30pm &middot; 5.5 hrs",
+          "key": true
+        }
+      ]
+    },
+    {
+      "type": "scans",
+      "h2": "From Patchwerk&rsquo;s <span class=\"hl\">Archive</span>",
+      "intro": "Five of the studio&rsquo;s own daily session reports for this album, in the engineers&rsquo; hands.",
+      "hint": "Swipe for all five reports",
+      "items": [
+        {
+          "file": "IMG_3131_234c6083.jpg",
+          "short": "First sheet &middot; 2003",
+          "caption": "13 December 2003 &middot; Studio 9000 &middot; Mike Davis, asst. Howard White &middot; &ldquo;Tracking Vox&rdquo; &mdash; &ldquo;I&rsquo;m Hard&rdquo; &middot; prod. Shawty Redd &middot; the first Jeezy sheet at Patchwerk"
+        },
+        {
+          "file": "IMG_4351_d07268be.jpg",
+          "short": "Air Force Ones &middot; mix",
+          "caption": "13 October 2004 &middot; Studio 9000 &middot; Leslie Brathwaite, asst. Kori Anders &middot; mixing &ldquo;Air Force Ones&rdquo; &middot; &ldquo;Leslie did not finish the mix&rdquo;"
+        },
+        {
+          "file": "IMG_4937(1)_3089b0aa.jpg",
+          "short": "Bun B &middot; Trap or Die",
+          "caption": "16 November 2004 &middot; Studio 995 &middot; Steve Fisher &middot; vocals for &ldquo;Trap or Die&rdquo; &mdash; Jeezy, Shawty Redd, Stat Quo and Bun B, four CDs released to all four"
+        },
+        {
+          "file": "IMG_5700_5d946c8d.jpg",
+          "short": "12-hr mix night",
+          "caption": "19 April 2005 &middot; Studio 9000 &middot; Leslie Brathwaite, asst. Kori Anders &middot; mixing &ldquo;Let&rsquo;s Get It&rdquo; and &ldquo;Don&rsquo;t Get Caught&rdquo; &middot; 5pm&ndash;5am, 12 hours"
+        },
+        {
+          "file": "IMG_3852_d5bb7a7d.jpg",
+          "short": "Gangsta Grillz",
+          "caption": "7 July 2004 &middot; Dub Room &middot; Steve Fisher &middot; DJ Drama&rsquo;s Gangsta Grillz mixtape, &ldquo;The Streetz Iz Watchin&rdquo; &mdash; mixed, mastered, dubbed to DAT and CD"
+        }
+      ]
+    },
+    {
+      "type": "credits",
+      "h2": "Behind the <span class=\"hl\">Board</span>",
+      "intro": "Patchwerk staff who logged sessions on this album, by session count.",
+      "items": [
+        {
+          "role": "Tracking",
+          "name": "Nico Solis &middot; 55 sessions"
+        },
+        {
+          "role": "Mixing",
+          "name": "Leslie Brathwaite &middot; 20 sessions"
+        },
+        {
+          "role": "Tracking",
+          "name": "Steve Fisher &middot; 12 sessions"
+        },
+        {
+          "role": "Assist &middot; Lead",
+          "name": "Kori Anders &middot; 27 sessions"
+        },
+        {
+          "role": "Tracking",
+          "name": "Mark &ldquo;Exit&rdquo; Goodchild &middot; Mike Davis"
+        },
+        {
+          "role": "Dub Room",
+          "name": "Kendrick White &middot; Tom Murphy &middot; Miles Walker &middot; Jamie Newman &middot; Denny Ogle &middot; Jay Stevenson"
+        },
+        {
+          "role": "First Session",
+          "name": "Mike Davis &middot; 13 Dec 2003"
+        },
+        {
+          "role": "Rooms",
+          "name": "Studio 995 &middot; Studio 9000 &middot; Dub Room / 001 PT Suite"
+        },
+        {
+          "role": "At",
+          "name": "Patchwerk Recording Studios &middot; 1094 Hemphill Avenue, Atlanta"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tag": "Why it matters",
+      "body": "<em>Let&rsquo;s Get It: Thug Motivation 101</em> carries more Patchwerk paperwork than any other record in the archive &mdash; 130 session reports across nineteen months, two engineers running two rooms in relay, and executives from Coach K to Shakir Stewart signing for masters in person. It is the sound of a label being built one session report at a time."
+    }
+  ],
+  "note": "Engineering credits shown are drawn directly from Patchwerk&rsquo;s own session logs for this record; only Patchwerk&rsquo;s documented contributions are listed here."
+}

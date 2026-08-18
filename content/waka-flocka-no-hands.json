@@ -1,0 +1,6 @@
+{
+  "retired": true,
+  "_RETIRED": "Withdrawn 2026-08-18 — Patchwerk has no Flockaveli plaque. Its material was folded into no-hands-song.json, which is now the single Waka Flocka Flame page (Kitchen). Kept as a stub because deletes are blocked on this drive; build_plaques.py skips any file with \"retired\": true. A copy of the original content is in _retired/.",
+  "title": "Flockaveli",
+  "artist": "Waka Flocka Flame"
+}

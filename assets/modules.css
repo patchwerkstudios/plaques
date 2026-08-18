@@ -1,0 +1,90 @@
+/* ============================================================
+   ALBUM-PAGE MODULES — additions to the Elevators stylesheet.
+   Same visual vocabulary: gold rules, Anton heads, plate cards.
+   ============================================================ */
+
+/* --- stat strip: big numbers for an album's Patchwerk footprint --- */
+.stats { display:flex; flex-wrap:wrap; gap:10px; margin:30px 0 8px; }
+.stats .stat { flex:1 1 30%; min-width:96px; background:linear-gradient(150deg,#221b14,#181109);
+  border:1px solid rgba(212,162,76,0.2); border-top:2px solid var(--gold); border-radius:6px;
+  padding:16px 14px; box-shadow:0 8px 22px rgba(0,0,0,0.3); }
+.stats .stat .n { font-family:var(--font-head); font-size:clamp(1.9rem,6vw,2.6rem); line-height:1; color:var(--gold); }
+.stats .stat .l { font-family:var(--font-display); text-transform:uppercase; letter-spacing:0.14em;
+  font-size:0.56rem; color:var(--muted); font-weight:600; margin-top:7px; }
+
+/* --- songs cut at Patchwerk --- */
+.songgrid { display:flex; flex-wrap:wrap; gap:8px; margin-top:6px; }
+.songgrid .song-chip { font-family:var(--font-display); font-size:0.82rem; font-weight:500;
+  background:var(--surface); border:1px solid rgba(212,162,76,0.28); border-radius:3px;
+  padding:9px 13px; color:var(--ink); display:flex; align-items:baseline; gap:9px; }
+.songgrid .song-chip b { font-family:var(--font-head); font-size:0.9rem; color:var(--gold); font-weight:400; }
+.songgrid .song-chip.working { border-style:dashed; color:var(--muted); }
+.songgrid .song-chip.working b { color:var(--gold-deep); }
+.songgrid .song-chip .ct { font-family:var(--font-display); font-size:0.62rem; font-weight:600;
+  text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); margin-left:2px; white-space:nowrap; }
+.legend { font-size:0.78rem; color:var(--muted); font-style:italic; margin-top:14px; }
+
+/* --- session timeline --- */
+.timeline { margin-top:8px; border-left:2px solid rgba(212,162,76,0.28); padding-left:0; list-style:none; }
+.timeline li { position:relative; padding:0 0 22px 22px; }
+.timeline li::before { content:""; position:absolute; left:-6px; top:7px; width:10px; height:10px;
+  border-radius:50%; background:var(--paper); border:2px solid var(--gold); }
+.timeline li.key::before { background:var(--gold); box-shadow:0 0 0 4px rgba(227,163,46,0.16); }
+.timeline .when { font-family:var(--font-display); text-transform:uppercase; letter-spacing:0.14em;
+  font-size:0.6rem; color:var(--gold-deep); font-weight:600; }
+.timeline .what { font-size:1rem; color:var(--ink); margin-top:3px; }
+.timeline .what em { color:var(--gold); font-style:normal; font-weight:600; }
+.timeline .who { font-family:var(--font-display); font-size:0.68rem; text-transform:uppercase;
+  letter-spacing:0.1em; color:var(--muted); margin-top:4px; }
+.tl-more { font-family:var(--font-display); text-transform:uppercase; letter-spacing:0.14em;
+  font-size:0.64rem; font-weight:600; color:var(--gold-deep); background:none; border:1px solid rgba(212,162,76,0.4);
+  border-radius:3px; padding:12px 20px; margin-top:4px; cursor:pointer; }
+.tl-more:hover { color:var(--gold); border-color:var(--gold); }
+.timeline li.extra { display:none; }
+.timeline.open li.extra { display:block; }
+
+/* --- session-report scroller ---------------------------------
+   Identical presentation to elevators.html (figure.doc: dark plate,
+   gold double border, caption beneath) — just several of them in a
+   horizontal scroll-snap track instead of one centred figure.
+   ------------------------------------------------------------ */
+.docscroll {
+  display:flex; gap:16px; margin:22px 0 0;
+  overflow-x:auto; overflow-y:hidden;
+  scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch;
+  padding:4px 0 14px;
+  /* let the track bleed to the screen edges so the next sheet peeks in */
+  margin-left:calc(-1 * max(0px, (100vw - 680px) / 2 * 0 + 0px));
+  align-items:flex-start;
+  scrollbar-width:thin; scrollbar-color:rgba(212,162,76,0.5) transparent;
+}
+.docscroll::-webkit-scrollbar { height:5px; }
+.docscroll::-webkit-scrollbar-track { background:rgba(236,227,212,0.06); border-radius:3px; }
+.docscroll::-webkit-scrollbar-thumb { background:rgba(212,162,76,0.5); border-radius:3px; }
+.docscroll::-webkit-scrollbar-thumb:hover { background:var(--gold); }
+
+/* each sheet keeps the elevators figure.doc look, sized for the track */
+.docscroll figure.doc {
+  flex:0 0 86%; max-width:470px; margin:0;
+  scroll-snap-align:center;
+}
+.docscroll figure.doc figcaption { min-height:3.6em; display:flex; align-items:flex-start;
+  justify-content:center; text-align:center; }
+@media (min-width:620px) { .docscroll figure.doc { flex:0 0 66%; } }
+
+.scroll-hint {
+  font-family:var(--font-display); text-transform:uppercase; letter-spacing:0.16em;
+  font-size:0.6rem; color:var(--gold-deep); font-weight:600;
+  display:flex; align-items:center; gap:9px; margin-top:2px;
+}
+.scroll-hint::before { content:""; width:18px; height:2px; background:var(--gold); }
+
+/* per-video aspect: the inline padding-bottom wins, so neutralise the base rule */
+figure.media .plaque-video { padding-bottom:0; }
+figure.media { max-width:460px; }
+
+/* Header logo links to patchwerk.com. Styled to look exactly as it did before —
+   the only cue is the cursor, so the header doesn't start reading as a button. */
+.top .logo-link{display:inline-flex;line-height:0;border:0;text-decoration:none}
+.top .logo-link img{display:block}
+.top .logo-link:hover img{opacity:.82;transition:opacity .2s}

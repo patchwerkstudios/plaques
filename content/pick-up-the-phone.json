@@ -1,0 +1,148 @@
+{
+  "_README": "Everything on the page comes from this file. Stripped 2026-08-17 down to the single 22 March 2016 session report — the broader Young Thug / Travis Scott / Gunna material and the Ciara 'Pick Up the Phone' were removed at the client's request and can be restored from git or re-derived from sessions.json. Rebuild with: python3 build_plaques.py pick-up-the-phone",
+  "type": "song",
+  "page_title": "Pick Up the Phone",
+  "description": "Travis Scott, Young Thug and Quavo's 2016 single — and the Patchwerk session report, dated four months before release, logging Young Thug tracking a song written down as “Pick Up.”",
+  "eyebrow": "Office Hallway",
+  "title": "Pick Up the Phone",
+  "artist": "Travis Scott &amp; Young Thug ft. Quavo",
+  "feature": "Four months before the single dropped, a sheet in Studio 9000 logs Young Thug tracking a song written down as <span class=\"hl\">&ldquo;Pick Up.&rdquo;</span>",
+  "_NOTE_spotify": "Track id carried over from the original hand-built plaque page: open.spotify.com/track/20dP2DaMHIAmwWAbp7peSr.",
+  "spotify": "20dP2DaMHIAmwWAbp7peSr",
+  "_NOTE_schema": "Feeds the MusicRecording structured data in the page head. Not rendered visually.",
+  "schema": {
+    "datePublished": "2016-07-21",
+    "label": "Grand Hustle / Epic Records / 300 Entertainment",
+    "genre": [
+      "Trap",
+      "Hip hop"
+    ]
+  },
+  "meta": [
+    {
+      "k": "Year",
+      "v": "2016"
+    },
+    {
+      "k": "Type",
+      "v": "Single"
+    },
+    {
+      "k": "Label",
+      "v": "Grand Hustle / Epic / 300"
+    },
+    {
+      "k": "Peak",
+      "v": "No. 43 Billboard Hot 100"
+    },
+    {
+      "k": "Certified",
+      "v": "5&times; Platinum"
+    },
+    {
+      "k": "In Our Books",
+      "v": "22 March 2016"
+    }
+  ],
+  "sections": [
+    {
+      "type": "prose",
+      "h2": "The <span class=\"hl\">Story</span>",
+      "paras": [
+        "&ldquo;Pick Up the Phone&rdquo; was released on 21 July 2016 and ended up on two albums at once &mdash; Travis Scott&rsquo;s <em>Birds in the Trap Sing McKnight</em> and Young Thug&rsquo;s <em>Jeffery</em> &mdash; with Quavo featured and Starrah on the hook. It has since been certified five-times Platinum.",
+        "Patchwerk&rsquo;s books hold a session report dated <strong>22 March 2016</strong> &mdash; four months before the single was released. Studio <strong>9000</strong>, client and artist both written &ldquo;Young Thug,&rdquo; engineer <strong>Mathew &ldquo;Stafa&rdquo; Carter</strong>, 8pm to 3:30am, seven and a half hours. The project column reads <em>&ldquo;Tracking / Edits.&rdquo;</em> The song column reads, simply, <em>&ldquo;Pick Up.&rdquo;</em> Backup left at Patchwerk on a flash drive; work saved to Work Drive 1."
+      ]
+    },
+    {
+      "type": "stats",
+      "h2": "In Our <span class=\"hl\">Rooms</span>",
+      "items": [
+        {
+          "n": "22 Mar",
+          "l": "2016 &mdash; the sheet"
+        },
+        {
+          "n": "9000",
+          "l": "The room"
+        },
+        {
+          "n": "7.5",
+          "l": "Hours, 8pm to 3:30am"
+        },
+        {
+          "n": "16",
+          "l": "Weeks before release"
+        }
+      ]
+    },
+    {
+      "type": "qa",
+      "h2": "The <span class=\"hl\">Recording</span>",
+      "_NOTE": "One card, one sheet.",
+      "items": [
+        {
+          "kicker": "The Sheet",
+          "q": "Was &ldquo;Pick Up the Phone&rdquo; recorded at Patchwerk?",
+          "a": "Patchwerk Recording Studios holds a session report dated <strong>22 March 2016</strong> logging <strong>Young Thug</strong> in <strong>Studio 9000</strong> tracking and editing a song written on the sheet as <em>&ldquo;Pick Up&rdquo;</em> &mdash; four months before &ldquo;Pick Up the Phone&rdquo; was released. Engineer <strong>Mathew &ldquo;Stafa&rdquo; Carter</strong> ran the session from 8pm to 3:30am, seven and a half hours, with the backup left at the studio on a flash drive."
+        }
+      ]
+    },
+    {
+      "type": "scans",
+      "h2": "From Patchwerk&rsquo;s <span class=\"hl\">Archive</span>",
+      "intro": "The session report for 22 March 2016, in the engineer&rsquo;s hand.",
+      "hint": "The sheet",
+      "items": [
+        {
+          "file": "IMG_3927_d890d6bf.jpg",
+          "short": "&ldquo;Pick Up&rdquo; &middot; Mar 2016",
+          "caption": "22 March 2016 &middot; Studio 9000 &middot; Young Thug &middot; engineer Mathew &ldquo;Stafa&rdquo; Carter &middot; project &ldquo;Tracking / Edits,&rdquo; song &ldquo;Pick Up&rdquo; &middot; 8pm&ndash;3:30am, seven and a half hours",
+          "_NOTE_crop": "Page detection warped this one on a tilt; a manual box on the raw photo reads cleaner.",
+          "crop": false,
+          "box": [
+            0.1,
+            0.03,
+            0.97,
+            0.95
+          ]
+        }
+      ]
+    },
+    {
+      "type": "credits",
+      "h2": "Behind the <span class=\"hl\">Board</span>",
+      "intro": "As written on the 22 March 2016 sheet.",
+      "items": [
+        {
+          "role": "Engineer",
+          "name": "Mathew &ldquo;Stafa&rdquo; Carter"
+        },
+        {
+          "role": "Artist &amp; Client",
+          "name": "Young Thug"
+        },
+        {
+          "role": "Room",
+          "name": "Studio 9000"
+        },
+        {
+          "role": "Session",
+          "name": "8pm&ndash;3:30am &middot; 7.5 hours &middot; Tracking / Edits"
+        },
+        {
+          "role": "Backup",
+          "name": "Left at Patchwerk &middot; flash drive &middot; Work Drive 1"
+        },
+        {
+          "role": "At",
+          "name": "Patchwerk Recording Studios &middot; 1094 Hemphill Avenue, Atlanta"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tag": "Why it matters",
+      "body": "One sheet, 22 March 2016. Seven and a half hours in Studio 9000, and the song written down as two words instead of four &mdash; sixteen weeks before the record came out."
+    }
+  ]
+}

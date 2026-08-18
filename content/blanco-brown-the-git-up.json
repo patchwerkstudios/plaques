@@ -1,0 +1,6 @@
+{
+  "retired": true,
+  "_RETIRED": "Hidden 2026-08-18. The match was never confirmed — one sheet, 21 Feb 2019, artist and client both written only as \"Blanco\", no song title. The page was written as an open question and carried a _TODO_SHIP note recommending it be held. Kept as a stub because deletes are blocked on this drive; build_plaques.py skips any file with \"retired\": true. Original content is in _retired/ and can be restored by copying it back.",
+  "title": "The Git Up",
+  "artist": "Blanco Brown"
+}

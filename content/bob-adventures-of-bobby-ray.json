@@ -1,0 +1,284 @@
+{
+  "_README": "Everything on the page comes from this file. Prose is a DRAFT — edit freely. Fields starting with _TODO need your input. Rebuild with: python3 build_plaques.py bob-adventures-of-bobby-ray",
+  "type": "album",
+  "page_title": "The Adventures of Bobby Ray",
+  "description": "The story of B.o.B's The Adventures of Bobby Ray, built at Patchwerk Recording Studios — including the sessions for both of its No. 1 singles, Nothin' On You and Airplanes.",
+  "_NOTE_scan_size": "Capped below the 1200px/q78 default to keep the NFC download under ~1MB now that the full sheet is in frame.",
+  "scan_max_px": 1080,
+  "scan_quality": 73,
+  "eyebrow": "Studio 9000 Staircase",
+  "title": "The Adventures of Bobby Ray",
+  "artist": "B.o.B",
+  "feature": "Both of B.o.B&rsquo;s No.&nbsp;1 singles were tracked in our rooms &mdash; <span class=\"hl\">&ldquo;Nothin&rsquo; On You&rdquo;</span> in 995, <span class=\"hl\">&ldquo;Airplanes&rdquo;</span> in 1019, five weeks before the album shipped.",
+  "_NOTE_spotify": "Album id from open.spotify.com/album/7apLPYT8szV1IqTxyVSy5P — verified via web_fetch: 'B.o.B Presents: The Adventures of Bobby Ray', 2010, 12 songs, (P) 2010 Atlantic Recording Corporation. Matches the standard digital release. The old hand-built page (adventures-of-bobby-ray.html) instead carried 59dLtGBS26x7kc0rHbaPrq, which is a TRACK id for 'Nothin' on You (feat. Bruno Mars)', track 2 of this same album — confirmed via web_fetch (meta-og:type: music.song, meta-music:album -> this same 7apLPYT8szV1IqTxyVSy5P). Kept the album id since this page is type 'album' and gets the tall tracklist player; the two ids don't conflict, they're just different scope (song vs. record).",
+  "spotify": "7apLPYT8szV1IqTxyVSy5P",
+  "_NOTE_schema": "Feeds the MusicAlbum structured data in the page head. Not rendered visually.",
+  "schema": {
+    "datePublished": "2010-04-27",
+    "label": "Rebel Rock / Grand Hustle / Atlantic",
+    "genre": [
+      "Hip hop",
+      "Pop rap",
+      "Pop"
+    ],
+    "tracks": [
+      "Don't Let Me Fall",
+      "Nothin' on You (feat. Bruno Mars)",
+      "Past My Shades (feat. Lupe Fiasco)",
+      "Airplanes (feat. Hayley Williams)",
+      "Bet I (feat. T.I. & Playboy Tre)",
+      "Ghost in the Machine",
+      "The Kids (feat. Janelle Monáe)",
+      "Magic (feat. Rivers Cuomo)",
+      "Fame",
+      "Lovelier Than You",
+      "5th Dimension (feat. Ricco Barrino)",
+      "Airplanes, Pt. II (feat. Eminem & Hayley Williams)"
+    ]
+  },
+  "meta": [
+    {
+      "k": "Year",
+      "v": "2010"
+    },
+    {
+      "k": "Label",
+      "v": "Rebel Rock / Grand Hustle / Atlantic"
+    },
+    {
+      "k": "Peak",
+      "v": "No. 1 Billboard 200"
+    },
+    {
+      "k": "Certified",
+      "v": "2&times; Platinum"
+    },
+    {
+      "k": "Grammy",
+      "v": "Best Rap Album nom."
+    },
+    {
+      "k": "Sessions Here",
+      "v": "12 logged"
+    },
+    {
+      "k": "Rooms",
+      "v": "995 &middot; 1019"
+    }
+  ],
+  "sections": [
+    {
+      "type": "prose",
+      "h2": "The <span class=\"hl\">Story</span>",
+      "paras": [
+        "Bobby Ray Simmons Jr. was still an unsigned Decatur rapper working the mixtape circuit before <em>B.o.B Presents: The Adventures of Bobby Ray</em> shipped on Grand Hustle and Atlantic on 27 April 2010. The album debuted at <strong>No.&nbsp;1</strong> on the Billboard 200 and went <strong>2&times; Platinum</strong>, carried by two singles that both went to No.&nbsp;1: &ldquo;Nothin&rsquo; On You&rdquo; and &ldquo;Airplanes.&rdquo;",
+        "Patchwerk&rsquo;s own session reports place both of those songs in the building. Mike Wilson engineered &ldquo;Nothin&rsquo; On You&rdquo; in Studio 995 on 25 October 2009, an overnight session with Bruno Mars &mdash; credited on the sheet simply as &ldquo;Bruno&rdquo; &mdash; producing. Five months later and five weeks before the album&rsquo;s release, Wilson tracked &ldquo;Airplanes&rdquo; in Studio 1019 with DJ Frank E, on a rented U-47 microphone, and the session report even logs the file handoff as its own line item: <em>&ldquo;U Send It Upload.&rdquo;</em>",
+        "Twelve sessions in all, most of them in 1019, running from an anonymous eight-hour vocal block on 9 January 2009 &mdash; thirteen months before he had a hit record &mdash; through the Airplanes upload in March 2010: a room B.o.B kept coming back to on the way up."
+      ]
+    },
+    {
+      "type": "stats",
+      "h2": "In Our <span class=\"hl\">Rooms</span>",
+      "items": [
+        {
+          "n": "12",
+          "l": "Logged sessions"
+        },
+        {
+          "n": "2",
+          "l": "No. 1 singles cut here"
+        },
+        {
+          "n": "2",
+          "l": "Rooms used"
+        },
+        {
+          "n": "5",
+          "l": "Weeks, Airplanes to release"
+        },
+        {
+          "n": "2009",
+          "l": "First confirmed session"
+        }
+      ]
+    },
+    {
+      "type": "qa",
+      "h2": "The <span class=\"hl\">Recording</span>",
+      "_NOTE": "Each answer leads with a complete, standalone fact naming the album, artist and studio, so it reads correctly when an AI answer engine or search snippet quotes the first sentence in isolation. Detail follows.",
+      "items": [
+        {
+          "kicker": "The Studio",
+          "q": "Where was B.o.B&rsquo;s <em>The Adventures of Bobby Ray</em> recorded?",
+          "a": "B.o.B recorded sessions for <em>The Adventures of Bobby Ray</em> at Patchwerk Recording Studios in Atlanta, Georgia. Patchwerk&rsquo;s own daily session reports document <strong>12 sessions</strong> between January 2009 and March 2010, split between Studio 995 and Studio 1019, engineered mostly by Mike Wilson &mdash; including the tracking dates for both of the album&rsquo;s No.&nbsp;1 singles."
+        },
+        {
+          "kicker": "The First Single",
+          "q": "Where was B.o.B&rsquo;s &ldquo;Nothin&rsquo; On You&rdquo; recorded?",
+          "a": "&ldquo;Nothin&rsquo; On You&rdquo; was recorded at Patchwerk Recording Studios in Studio 995 on <strong>25 October 2009</strong>, six months before <em>The Adventures of Bobby Ray</em> was released. Mike Wilson engineered an 11&frac12;-hour overnight session, 2pm to 1:30am, with the sheet listing the producer simply as &ldquo;Bruno&rdquo; &mdash; Bruno Mars, whose hook made the song B.o.B&rsquo;s first No.&nbsp;1."
+        },
+        {
+          "kicker": "The Second Single",
+          "q": "Where and when was B.o.B&rsquo;s &ldquo;Airplanes&rdquo; recorded?",
+          "a": "&ldquo;Airplanes&rdquo; was tracked at Patchwerk Recording Studios in Studio 1019 on <strong>18 March 2010</strong>, five weeks before the album shipped. Mike Wilson engineered with <strong>DJ Frank E</strong> producing, 6:30pm to 2am, on a U-47 microphone rented in from Eclipse. The session report logs the vocal pass and then, as its own line item, the file transfer: <em>&ldquo;U Send It Upload,&rdquo;</em> within that same 7&frac12;-hour session &mdash; the sheet gives one combined hours total, not a separate tally for the upload."
+        },
+        {
+          "kicker": "Before the Fame",
+          "q": "Was B.o.B recording at Patchwerk before he was famous?",
+          "a": "Yes &mdash; the earliest B.o.B sheet in Patchwerk&rsquo;s binders is dated <strong>9 January 2009</strong>, more than a year before &ldquo;Airplanes&rdquo; made him a household name. The report is almost bare: Studio 1019, eight hours and eleven minutes, project logged only as &ldquo;Vocals,&rdquo; no producer or song title written down &mdash; a routine working day for an artist nobody outside Atlanta had heard of yet."
+        },
+        {
+          "kicker": "Other Sessions",
+          "q": "What other songs did B.o.B record at Patchwerk besides the singles?",
+          "a": "Patchwerk&rsquo;s reports also log a session for <em>&ldquo;Dream On Me&rdquo;</em> on 13 October 2009 in Studio 995 with Mike Wilson &mdash; a sheet the studio&rsquo;s own staff photographed three separate times &mdash; and one for <em>&ldquo;We Don&rsquo;t Sleep&rdquo;</em> on 8 November 2009. Neither title appears on the final tracklist of <em>The Adventures of Bobby Ray</em>; either way, the sessions themselves are on the record."
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "src": "videos/bob-b-rich-2022.mp4",
+      "poster": "bob-b-rich-2022.jpg",
+      "aspect": 100,
+      "caption": "B Rich &mdash; the Atlanta A&amp;R who signed B.o.B and helped build his early career &mdash; back at Patchwerk, 2022."
+    },
+    {
+      "type": "timeline",
+      "h2": "Session <span class=\"hl\">Log</span>",
+      "intro": "Drawn from the studio&rsquo;s daily session reports.",
+      "items": [
+        {
+          "when": "9 January 2009 &middot; Studio 1019",
+          "what": "The earliest B.o.B sheet in the binder &mdash; just &ldquo;Vocals,&rdquo; no song or producer named, over a year before he had a hit.",
+          "who": "6pm&ndash;2:11am &middot; 8 hrs 11 min",
+          "key": true
+        },
+        {
+          "when": "13 October 2009 &middot; Studio 995",
+          "what": "Vocals for <em>&ldquo;Dream On Me&rdquo;</em> &mdash; the studio&rsquo;s own staff photographed this sheet three separate times.",
+          "who": "Mike Wilson &middot; 6pm&ndash;11:30pm &middot; 5&frac12; hrs"
+        },
+        {
+          "when": "25 October 2009 &middot; Studio 995",
+          "what": "<em>&ldquo;Nothin&rsquo; On You&rdquo;</em> tracked &mdash; the song that became B.o.B&rsquo;s first No.&nbsp;1.",
+          "who": "Mike Wilson &middot; prod. Bruno &middot; 2pm&ndash;1:30am &middot; 11&frac12; hrs",
+          "key": true
+        },
+        {
+          "when": "8 November 2009 &middot; Studio 995",
+          "what": "Vocals for <em>&ldquo;We Don&rsquo;t Sleep&rdquo;</em>, plus a second title logged on the sheet as &ldquo;Get Mama.&rdquo;",
+          "who": "Mike Wilson &middot; 1pm&ndash;11pm &middot; 10 hrs"
+        },
+        {
+          "when": "9&ndash;14 December 2009 &middot; Studio 1019",
+          "what": "A run of six sessions across six days, most of the sheets nearly blank &mdash; no materials, no rentals, just the room booked and the hours logged. Two sheets do name an engineer.",
+          "who": "Dee Brown (9 Dec), B.O.B (12 Dec) &middot; 7&ndash;9&frac12; hrs each"
+        },
+        {
+          "when": "8 January 2010 &middot; Studio 1019",
+          "what": "Another blank-form date billed to Atlantic Records &mdash; eight hours logged, nothing else written down.",
+          "who": "6pm&ndash;2am &middot; 8 hrs"
+        },
+        {
+          "when": "18 March 2010 &middot; Studio 1019",
+          "what": "<em>&ldquo;Airplanes&rdquo;</em> tracked, then uploaded &mdash; the session report logs the file transfer as its own line: &ldquo;U Send It Upload.&rdquo;",
+          "who": "Mike Wilson &middot; prod. DJ Frank E &middot; 6:30pm&ndash;2am &middot; 7&frac12; hrs &middot; U-47 mic rented from Eclipse",
+          "key": true
+        }
+      ]
+    },
+    {
+      "type": "scans",
+      "h2": "From Patchwerk&rsquo;s <span class=\"hl\">Archive</span>",
+      "intro": "Five of the studio&rsquo;s own daily session reports for this album, in the engineers&rsquo; hands.",
+      "hint": "Swipe for all five reports",
+      "items": [
+        {
+          "file": "IMG_7787_7a0a0385.jpg",
+          "short": "Earliest date &middot; 2009",
+          "caption": "9 January 2009 &middot; Studio 1019 &middot; &ldquo;Vocals&rdquo; &middot; 6pm&ndash;2:11am, 8 hrs 11 min &middot; the earliest B.o.B sheet in the binder, over a year before &ldquo;Airplanes&rdquo;"
+        },
+        {
+          "file": "IMG_1361_89529315.jpg",
+          "short": "Dream On Me &middot; 2009",
+          "caption": "13 October 2009 &middot; Studio 995 &middot; Mike Wilson &middot; &ldquo;Vocals &mdash; Dream On Me&rdquo; &middot; 6pm&ndash;11:30pm &middot; one of three photographs of this same session in the binder"
+        },
+        {
+          "file": "IMG_1383_2166b308.jpg",
+          "short": "Nothin&rsquo; On You &middot; 2009",
+          "caption": "25 October 2009 &middot; Studio 995 &middot; Mike Wilson, prod. Bruno &middot; &ldquo;Vocals &mdash; Nothin On You&rdquo; &middot; 2pm&ndash;1:30am, 11&frac12; hours"
+        },
+        {
+          "file": "IMG_0659_7e434004.jpg",
+          "short": "Tracking &middot; Dec 2009",
+          "caption": "9 December 2009 &middot; Studio 1019 &middot; Dee Brown &middot; &ldquo;Tracking Session&rdquo; &middot; 12pm&ndash;8pm, 8 hours &mdash; the first of a six-day run in the room"
+        },
+        {
+          "file": "IMG_7832_7eb4ae89.jpg",
+          "short": "Airplanes &middot; 2010",
+          "caption": "18 March 2010 &middot; Studio 1019 &middot; Mike Wilson, prod. DJ Frank E &middot; &ldquo;Vocals &mdash; Airplanes,&rdquo; then &ldquo;U Send It Upload&rdquo; &middot; 6:30pm&ndash;2am &middot; U-47 mic rented from Eclipse"
+        }
+      ]
+    },
+    {
+      "type": "credits",
+      "h2": "Behind the <span class=\"hl\">Board</span>",
+      "intro": "Patchwerk staff who logged sessions on this album, by session count, followed by the wider production team as documented in public sources &mdash; not from Patchwerk.",
+      "items": [
+        {
+          "role": "Engineering",
+          "name": "Mike Wilson &middot; 4 sessions"
+        },
+        {
+          "role": "Engineering",
+          "name": "Dee Brown &middot; 1 session"
+        },
+        {
+          "role": "Engineering",
+          "name": "B.O.B (self-engineered) &middot; 1 session"
+        },
+        {
+          "role": "Producers logged",
+          "name": "Bruno (Mars) &middot; DJ Frank E"
+        },
+        {
+          "role": "Rentals",
+          "name": "U-47 microphone &middot; from Eclipse"
+        },
+        {
+          "role": "Rooms",
+          "name": "Studio 995 &middot; Studio 1019"
+        },
+        {
+          "role": "At",
+          "name": "Patchwerk Recording Studios &middot; 1094 Hemphill Avenue, Atlanta"
+        },
+        {
+          "role": "Public Sources &mdash; Not Patchwerk",
+          "name": "The credits below are from Discogs and liner notes, not Patchwerk&rsquo;s own paperwork."
+        },
+        {
+          "role": "Executive",
+          "name": "B.o.B, T.I., Jim Jonsin"
+        },
+        {
+          "role": "Key Producers",
+          "name": "The Smeezingtons, Alex da Kid, Dr. Luke &mdash; Patchwerk&rsquo;s own sheet for &ldquo;Nothin&rsquo; On You&rdquo; lists its producer only as &ldquo;Bruno,&rdquo; one third of The Smeezingtons"
+        },
+        {
+          "role": "Mastering",
+          "name": "Chris Gehringer"
+        },
+        {
+          "role": "Guest Features",
+          "name": "Bruno Mars, Hayley Williams, Rivers Cuomo, Eminem, T.I."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tag": "Why it matters",
+      "body": "Both of B.o.B&rsquo;s No.&nbsp;1 singles &mdash; a full year apart, in two different rooms &mdash; were tracked at Patchwerk before either one had charted. The paperwork was written by someone who had no idea yet which songs would matter."
+    }
+  ],
+  "note": "Engineering and session credits are drawn directly from Patchwerk&rsquo;s own session logs for this record. The Executive, Key Producers, Mastering and Guest Features rows in the credits section are compiled from public sources including Discogs and official liner notes, and are clearly separated above from Patchwerk&rsquo;s own documented contribution."
+}

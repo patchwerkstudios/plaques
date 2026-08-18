@@ -1,0 +1,212 @@
+{
+  "_README": "Everything on the page comes from this file. Prose is a DRAFT — edit freely. Fields starting with _TODO need your input. Rebuild with: python3 build_plaques.py whitney-houston-just-whitney",
+  "type": "album",
+  "page_title": "Just Whitney",
+  "description": "The story of Whitney Houston's Just Whitney, built at Patchwerk Recording Studios — including the lead single, Whatchulookinat, and the 28-hour mix of My Love.",
+  "eyebrow": "Studio 995 Hallway",
+  "title": "Just Whitney",
+  "artist": "Whitney Houston",
+  "feature": "The lead single was tracked here in a <span class=\"hl\">17&frac12;-hour overnight session</span>, and the album&rsquo;s closing mix ran a full <span class=\"hl\">28 hours</span>, Saturday into Sunday.",
+  "_NOTE_spotify": "Verified via web_fetch of whitneyhouston.com/music/just-whitney/, which links directly to spotify:album:1PaUocxapG5ROK0UVvZwNX. Confirmed on Spotify itself: 10 songs, 2002, (P) Arista Records LLC, tracklist matches the official site's numbered order exactly.",
+  "spotify": "1PaUocxapG5ROK0UVvZwNX",
+  "_NOTE_schema": "Feeds the MusicAlbum structured data in the page head. Not rendered visually.",
+  "schema": {
+    "datePublished": "2002-12-10",
+    "label": "Arista Records",
+    "genre": [
+      "R&B",
+      "Pop",
+      "Dance"
+    ],
+    "tracks": [
+      "One Of Those Days",
+      "Tell Me No",
+      "Things You Say",
+      "My Love (feat. Bobby Brown)",
+      "Love That Man",
+      "Try It On My Own",
+      "Dear John Letter",
+      "Unashamed",
+      "You Light Up My Life",
+      "Whatchulookinat"
+    ]
+  },
+  "meta": [
+    {
+      "k": "Year",
+      "v": "2002"
+    },
+    {
+      "k": "Label",
+      "v": "Arista Records"
+    },
+    {
+      "k": "Peak",
+      "v": "No. 9 Billboard 200"
+    },
+    {
+      "k": "Certified",
+      "v": "Platinum"
+    },
+    {
+      "k": "Sessions Here",
+      "v": "6 logged"
+    },
+    {
+      "k": "Rooms",
+      "v": "995 &middot; 9000"
+    }
+  ],
+  "sections": [
+    {
+      "type": "prose",
+      "h2": "The <span class=\"hl\">Story</span>",
+      "paras": [
+        "<em>Just Whitney</em> was released on Arista Records on 10 December 2002, Whitney Houston&rsquo;s fifth studio album and her first since re-signing with the label. It debuted at No.&nbsp;9 on the Billboard 200 with the biggest first-week sales of her Nielsen SoundScan-era career, and was certified Platinum by the RIAA.",
+        "Patchwerk&rsquo;s own session reports document six sessions for the record between May and August 2002, split between Studio 995 and Studio 9000. Josh Butler engineered the lead single, <em>&ldquo;Whatchulookinat,&rdquo;</em> across an overnight date on 26 May, and Steve Fisher and Stephen George worked the sessions that followed through the summer.",
+        "The last of the six sheets, dated 17 August 2002, logs a 28-hour mix &mdash; noon on a Saturday to 4pm the following Sunday &mdash; for <em>&ldquo;My Love,&rdquo;</em> credited on the sheet as &ldquo;Whitney Houston &amp; Bobby Brown,&rdquo; with a rental list of outboard gear that runs to a dozen lines."
+      ]
+    },
+    {
+      "type": "qa",
+      "h2": "The <span class=\"hl\">Recording</span>",
+      "_NOTE": "Each answer leads with a complete, standalone fact naming the album, artist and studio, so it reads correctly when an AI answer engine or search snippet quotes the first sentence in isolation. Detail follows. Kept deliberately to session-report facts — dates, rooms, engineers, hours — per the archive's own restraint on this record.",
+      "items": [
+        {
+          "kicker": "The Studio",
+          "q": "Where was Whitney Houston&rsquo;s <em>Just Whitney</em> recorded?",
+          "a": "Whitney Houston recorded sessions for <em>Just Whitney</em> at Patchwerk Recording Studios in Atlanta, Georgia. Patchwerk&rsquo;s own daily session reports document <strong>six sessions</strong> between May and August 2002, in Studio 995 and Studio 9000, billed to Arista Records and engineered by Josh Butler, Steve Fisher, Stephen George and Mike Wilson."
+        },
+        {
+          "kicker": "The Lead Single",
+          "q": "Where was Whitney Houston&rsquo;s &ldquo;Whatchulookinat&rdquo; recorded?",
+          "a": "&ldquo;Whatchulookinat,&rdquo; the lead single from <em>Just Whitney</em>, was tracked at Patchwerk Recording Studios in Studio 995 on <strong>26 May 2002</strong>. Engineer Josh Butler ran a 17&frac12;-hour overnight session, noon to 5:30am, with assistant Steve Fisher &mdash; vocals for &ldquo;Whatcha Lookin&rsquo; At&rdquo; and a second, then-untitled song logged on the sheet only as &ldquo;Easy.&rdquo;"
+        },
+        {
+          "kicker": "Bobby Brown",
+          "q": "Was Bobby Brown involved in the Patchwerk sessions for <em>Just Whitney</em>?",
+          "a": "Yes &mdash; Bobby Brown is named on four of Patchwerk&rsquo;s six session reports for <em>Just Whitney</em>, including as producer on a 19 May 2002 date in Studio 9000 and as co-credited artist on the 17 August mix of &ldquo;My Love,&rdquo; engineered by Stephen George. The 19 May sheet carries a handwritten red marginal note restricting the song&rsquo;s copies from release &mdash; &ldquo;not finished yet,&rdquo; per a note attributed to R.&nbsp;Jerkins."
+        },
+        {
+          "kicker": "The Long Mix",
+          "q": "How long did Patchwerk spend mixing &ldquo;My Love&rdquo; for <em>Just Whitney</em>?",
+          "a": "The mix of &ldquo;My Love&rdquo; ran <strong>28 hours</strong> at Patchwerk Recording Studios, from noon on Saturday, 17 August 2002 to 4pm the following Sunday. Engineer Stephen George worked with assistant Steve Fisher and producers Teddy Bishop and Gordon Chambers, and the session report&rsquo;s rental list &mdash; a Manley Variable-Mu compressor, an AMS DMX, an Eventide Orville, an Apogee AD-1000 among a dozen other lines &mdash; is the longest of any sheet in the album&rsquo;s file."
+        },
+        {
+          "kicker": "Cee-Lo",
+          "q": "Did Cee-Lo appear on any <em>Just Whitney</em> sessions at Patchwerk?",
+          "a": "Yes &mdash; a 13 August 2002 Patchwerk session report lists the artist as &ldquo;Whitney Houston feat. Cee-Lo,&rdquo; tracking vocals for a remix of &ldquo;Whatcha Lookin&rsquo; At.&rdquo; Steve Fisher engineered with Cory Williams assisting, in a three-hour Studio 995 session running 3pm to 6pm."
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "h2": "Session <span class=\"hl\">Log</span>",
+      "intro": "Drawn from the studio&rsquo;s daily session reports.",
+      "items": [
+        {
+          "when": "19 May 2002 &middot; Studio 9000",
+          "what": "An 11-hour overnight vocal session, producer Bobby Brown. A red marginal note bars the song&rsquo;s copies from release &ldquo;especially Arista&rdquo; &mdash; marked not finished yet, per R.&nbsp;Jerkins.",
+          "who": "Mike Wilson &middot; 9pm&ndash;8am",
+          "key": true
+        },
+        {
+          "when": "26 May 2002 &middot; Studio 995",
+          "what": "Lead single <em>&ldquo;Whatcha Lookin&rsquo; At&rdquo;</em> tracked, plus a second, then-untitled song logged as &ldquo;Easy.&rdquo;",
+          "who": "Josh Butler, asst. Steve Fisher &middot; 12pm&ndash;5:30am &middot; 17&frac12; hrs",
+          "key": true
+        },
+        {
+          "when": "28 May 2002 &middot; Studio 995",
+          "what": "Vocals continued on &ldquo;Easy.&rdquo;",
+          "who": "Josh Butler, asst. Steve Fisher"
+        },
+        {
+          "when": "10 June 2002 &middot; Studio 995",
+          "what": "A four-hour session with no song title logged &mdash; the sheet reads simply &ldquo;N/A.&rdquo;",
+          "who": "Josh Butler, asst. Cory Williams &middot; 6pm&ndash;10pm"
+        },
+        {
+          "when": "13 August 2002 &middot; Studio 995",
+          "what": "&ldquo;Whitney Houston feat. Cee-Lo&rdquo; &mdash; vocals tracked for a remix of &ldquo;Whatcha Lookin&rsquo; At.&rdquo;",
+          "who": "Steve Fisher, asst. Cory Williams &middot; 3pm&ndash;6pm &middot; 3 hrs"
+        },
+        {
+          "when": "17&ndash;18 August 2002 &middot; Studio 995",
+          "what": "A 28-hour mix of <em>&ldquo;My Love,&rdquo;</em> credited &ldquo;Whitney Houston &amp; Bobby Brown&rdquo; &mdash; noon Saturday to 4pm Sunday, the longest session in the album&rsquo;s file.",
+          "who": "Stephen George, asst. Steve Fisher &middot; prod. Teddy Bishop &amp; Gordon Chambers",
+          "key": true
+        }
+      ]
+    },
+    {
+      "type": "scans",
+      "h2": "From Patchwerk&rsquo;s <span class=\"hl\">Archive</span>",
+      "intro": "Four of the studio&rsquo;s own daily session reports for this album, in the engineers&rsquo; hands.",
+      "hint": "Swipe for all four reports",
+      "items": [
+        {
+          "file": "IMG_5176_2c657d99.jpg",
+          "short": "Bobby Brown &middot; May 2002",
+          "caption": "19 May 2002 &middot; Studio 9000 &middot; Mike Wilson &middot; prod. Bobby Brown &middot; 9pm&ndash;8am, 11 hours &middot; red marginal note restricting the song&rsquo;s copies"
+        },
+        {
+          "file": "IMG_5188_8a8ef109.jpg",
+          "short": "Whatcha Lookin&rsquo; At &middot; lead single",
+          "caption": "26 May 2002 &middot; Studio 995 &middot; Josh Butler, asst. Steve Fisher &middot; &ldquo;Whatcha Lookin&rsquo; At&rdquo; and &ldquo;Easy&rdquo; tracked &middot; 12pm&ndash;5:30am, 17&frac12; hours"
+        },
+        {
+          "file": "IMG_5309_7f435215.jpg",
+          "short": "Cee-Lo &middot; remix",
+          "caption": "13 August 2002 &middot; Studio 995 &middot; Steve Fisher, asst. Cory Williams &middot; &ldquo;Whitney Houston feat. Cee-Lo&rdquo; &middot; &ldquo;Whatcha Lookin&rsquo; At&rdquo; remix &middot; 3pm&ndash;6pm"
+        },
+        {
+          "file": "IMG_5316_31cc8886.jpg",
+          "short": "My Love &middot; 28-hr mix",
+          "caption": "17&ndash;18 August 2002 &middot; Studio 995 &middot; Stephen George, asst. Steve Fisher, prod. Teddy Bishop &amp; Gordon Chambers &middot; &ldquo;My Love&rdquo; mix, noon Sat to 4pm Sun, 28 hours"
+        }
+      ]
+    },
+    {
+      "type": "credits",
+      "h2": "Behind the <span class=\"hl\">Board</span>",
+      "intro": "Patchwerk staff who logged sessions on this album, by session count.",
+      "items": [
+        {
+          "role": "Engineering",
+          "name": "Josh Butler &middot; 3 sessions"
+        },
+        {
+          "role": "Engineering",
+          "name": "Steve Fisher &middot; 1 session &middot; assisted on 3 more"
+        },
+        {
+          "role": "Engineering",
+          "name": "Stephen George &middot; 1 session (mix)"
+        },
+        {
+          "role": "Engineering",
+          "name": "Mike Wilson &middot; 1 session"
+        },
+        {
+          "role": "Assistant",
+          "name": "Cory Williams"
+        },
+        {
+          "role": "Rooms",
+          "name": "Studio 995 &middot; Studio 9000"
+        },
+        {
+          "role": "At",
+          "name": "Patchwerk Recording Studios &middot; 1094 Hemphill Avenue, Atlanta"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tag": "Why it matters",
+      "body": "Every producer credited on Patchwerk&rsquo;s own paperwork for this record &mdash; Bobby Brown on the 19 May session, Teddy Bishop and Gordon Chambers on the 28-hour mix of &ldquo;My Love&rdquo; &mdash; signed a session report to get there. The paperwork shows a working record: overnight sessions, engineers logging every disc and reel, a mix that ran a Saturday into a Sunday."
+    }
+  ],
+  "note": "Engineering credits shown are drawn directly from Patchwerk&rsquo;s own session logs for this record; only Patchwerk&rsquo;s documented contributions are listed here."
+}
